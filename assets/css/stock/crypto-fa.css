@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "cryptocoins";
+  src: url('/assets/fonts/cryptocoins.woff2') format('woff2'),
+    url('/assets/fonts/cryptocoins.woff') format('woff'),
+    url('/assets/fonts/cryptocoins.ttf') format('truetype');
+}
+.fa-ltc:before {
+    content: "Ł";
+}
+.fa-eth:before {
+    font-family: "cryptocoins";
+    content: "\E04C";
+    position: relative;
+    bottom: 1px;
+}
+.fa-dash:before {
+    font-family: "cryptocoins";
+    content: '\E036';
+    position: relative;
+    bottom: 1px;
+}
+.fa-doge:before {
+    font-family: "cryptocoins";
+    content: 'Ɖ';
+    position: relative;
+    bottom: 1px;
+}
+.fa-xrp:before {
+    font-family: 'cryptocoins';
+    content: "\E10D";
+    position: relative;
+    bottom: 1px;
+}
+.fa-btc:before {
+    font-family: 'cryptocoins';
+    content: "\E028";
+    position: relative;
+    bottom: 1px;
+}
+
+
+@font-face{
+	font-family:FontAwesome;
+	src:url(/assets/fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
+	src:url(/assets/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0) format('embedded-opentype'),
+	url(/assets/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0) format('woff2'),
+	url(/assets/fonts/fontawesome-webfont3e6e.woff?v=4.7.0) format('woff'),
+	url(/assets/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0) format('truetype'),
+	url(/assets/fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+
+.fa{
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;text-rendering:auto;
+	-webkit-font-smoothing:antialiased
+}
+
+.fa-rouble:before,.fa-rub:before,.fa-ruble:before{content:"\f158"}
+.fa-eur:before,.fa-euro:before{content:"\f153"}
+.fa-dollar:before,.fa-usd:before{content:"\f155"}

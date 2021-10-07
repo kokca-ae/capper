@@ -1,0 +1,5140 @@
+@media (max-width: 1730px) {
+    * {}
+    body {}
+    p {}
+    ul,
+    ol {}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {}
+    a,
+    button {}
+    a:before,
+    a:after,
+    button:before,
+    button:after {}
+    :before,
+    :after {}
+    button,
+    input,
+    textarea {}
+    button {}
+    .invisLink {}
+    .invisLink a {}
+    .cfix:after {}
+    .left {}
+    .right {}
+    .table {}
+    .tableCell {}
+    .cfix.margO {}
+    .cfix.margO>.item {}
+    .cfix>.item {}
+    .col12 {}
+    .col6 {}
+    .col4 {}
+    .container {}
+    .logo {}
+    .logo:hover {}
+    .siteHeader {}
+    .siteHeader .lineTop {}
+    .siteHeader.innerHeader {}
+    .mainHeader {}
+    .siteHeader .logo {
+        margin-top: 0px;
+        margin-right: 100px;
+    }
+    .siteHeader .logo img {}
+    .rightHeader {
+        margin-top: 5px;
+    }
+    .siteHeader .headContacts {
+        float: left;
+        width: calc(100% - 344px);
+        padding-bottom: 40px;
+    }
+    .siteFooter .social [class*="icon"],
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts [class*="icon"] {}
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts .mail [class*="icon"],
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .mail,
+    .siteHeader .headContacts .mail {}
+    .siteHeader .headContacts .mail {
+        position: absolute;
+        margin-top: 40px;
+    }
+    .siteFooter .mail:hover,
+    .siteHeader .headContacts .mail:hover {}
+    .siteHeader .headContacts .socialBlock,
+    .siteHeader .headContacts .langSite {}
+    .siteHeader .headContacts .langSite {
+        float: right;
+    }
+    .siteHeader .headContacts .socialBlock {
+        width: auto;
+        padding-right: 0px;
+    }
+    .siteFooter .telegram a,
+    .siteHeader .headContacts .telegram a {}
+    .siteFooter .telegram a:hover,
+    .siteHeader .headContacts .telegram a:hover {}
+    .siteHeader .headContacts .social {
+        margin-left: 70px;
+    }
+    .siteFooter .social a,
+    .siteHeader .headContacts .social a {}
+    .siteFooter .social a:hover,
+    .siteHeader .headContacts .social a:hover {}
+    .siteFooter .social li,
+    .siteHeader .headContacts .social li {}
+    .siteFooter .social li+li,
+    .siteHeader .headContacts .social li+li {}
+    .siteHeader .headContacts .telegram {
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+    .siteHeader .headContacts .telegram li {}
+    .siteHeader .headContacts .telegram li+li {}
+    .siteHeader .headContacts .langSite a {}
+    .siteHeader .headContacts .langSite a:hover {}
+    .siteHeader .headContacts .langSite a.active {}
+    .siteHeader .headContacts .langSite li {}
+    .siteHeader .headContacts .langSite li+li {}
+    .siteHeader .siteMenu {
+        margin-top: 33px;
+    }
+    .siteHeader .siteMenu .linkMenu {}
+    .siteHeader .siteMenu .linkMenu:hover {}
+    .siteHeader .siteMenu .linkMenu:before {}
+    .siteHeader .menu li+li {
+        margin-left: 30px;
+    }
+    .siteHeader .siteMenu .linkMenu.active:before {}
+    .siteHeader .siteMenu li {}
+    .siteHeader .toCabinet,
+    .siteHeader .menu {}
+    .siteHeader .toCabinet {}
+    .siteHeader .toCabinet li+li {}
+    .siteHeader .toCabinet .cabMove {}
+    .siteHeader .toCabinet .cabMove:hover {}
+    .siteHeader .toCabinet .loginCab {}
+    .siteHeader .toCabinet .regCab {}
+    .textGretting {
+        width: 625px;
+        margin-left: calc(100% - (725px + 625px));
+        padding-top: 0px;
+    }
+    .textGretting .btn.btnTran {}
+    .textGretting .cap {
+        white-space: normal;
+    }
+    .textGretting .desr {}
+    .textGretting .text {}
+    .textGretting .btnTran {}
+    .infoGrettingMain {
+        width: 725px;
+    }
+    .infoGrettingMain:before {}
+    .infoGrettingMain:after {}
+    .infoGrettingMain .circleLogo {
+        margin-right: 0px;
+    }
+    .infoGrettingMain .circleLogo:before {}
+    .infoGrettingMain .circleLogo:after {}
+    .infoGrettingMain [class*="icon"] {}
+    .infoGrettingMain .val {}
+    .infoGrettingMain .desr {}
+    .infoGrettingMain .item {}
+    .infoGrettingMain .item:first-child {}
+    .infoGrettingMain .item:nth-child(2) {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:before {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:last-child:before {}
+    .btn.btnTran {}
+    .btn.btnTran:hover {}
+    .btn.btnTran:before {}
+    .grayBlPixel {}
+    .aboutMain {}
+    .contactsMain .list .cfix,
+    .aboutMain .list .cfix {}
+    .contactsMain .list,
+    .aboutMain .list {}
+    .contactsMain .list:before,
+    .aboutMain .list:before {}
+    .contactsMain .list .item,
+    .aboutMain .list .item {}
+    .contactsMain .list .item .in,
+    .aboutMain .list .item .in {}
+    .contactsMain .list .item .in:before,
+    .aboutMain .list .item .in:before {}
+    .contactsMain .list [class*='icon'],
+    .aboutMain .list [class*='icon'] {}
+    .contactsMain .list .tit,
+    .aboutMain .list .tit {}
+    .contactsMain .list .txt,
+    .aboutMain .list .txt {}
+    .aboutMain .list .txt.note {}
+    .aboutMain .textBl {}
+    .aboutMain .textBl b+* {}
+    .aboutMain .textBl .tit {}
+    .aboutMain .textBl .btnLIne {}
+    .aboutMain .textBl .btn {width: 253px;}
+    .btn.btnFull {}
+    .btn.btnFull:hover {}
+    .whiteTxt {}
+    .blueTxt {}
+    .txtBlock {}
+    .txtBlock+.txtBlock {}
+    .titBlock.centerTitle {}
+    .titBlock .tit {}
+    .titBlock .pre {}
+    .backBlue {}
+    .backBlue.base {}
+    .backBlue.base:before,
+    .backBlue.base:after {}
+    .backBlue.base:before {}
+    .backBlue.base:after {}
+    .returnCash {}
+    .returnCash .titBlock {}
+    .aboutCompany {}
+    .aboutCompany>.container>.cfix {}
+    .aboutCompany>.container>.cfix>.item {}
+    .aboutCompany>.container>.cfix>.item:first-child {}
+    .aboutCompany .content {}
+    .aboutCompany .nameBlock {}
+    .aboutCompany .nameBlock .name {}
+    .aboutCompany .nameBlock .address {}
+    .aboutCompany .licensyBlock {}
+    .aboutCompany .licensyBlock .licensy {}
+    .aboutCompany .licensyBlock:before {}
+    .aboutCompany .licensyBlock .licensyImage {}
+    .aboutCompany .licensyBlock .numLicensy {}
+    .aboutCompany .licensyBlock .btnFull {}
+    .successSteps {}
+    .successSteps:after,
+    .backBlue.base .backBlock,
+    .returnCash.backBlue .backBlock {
+        width: 100%;
+        left: 0px;
+        margin-left: 0px;
+    }
+    .returnCash.backBlue:after {}
+    .returnCash.backBlue .backBlock {}
+    .successSteps .circleStep {}
+    .successSteps .circleStep:before {}
+    .successSteps .circleStep .in {}
+    .successSteps .circleStep .in .tit {}
+    .successSteps .circleStep .in .txt {}
+    .successSteps .steps .tit {}
+    .successSteps .steps .txt {}
+    .successSteps .steps .step {}
+    .successSteps .steps .step+.step {}
+    .successSteps .steps .item {}
+    .successSteps .steps .item:last-child {}
+    .successSteps .steps .item:first-child .step {}
+    .successSteps .steps .item:last-child .step {}
+    .successSteps .stepsBlock {}
+    .successSteps .steps {}
+    .successSteps .steps .num {}
+    .successSteps .steps .step:first-child .num {}
+    .successSteps .steps .num:before {}
+    .successSteps .steps .item:first-child .step:first-child .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .step:first-child .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .num {}
+    .successSteps .steps .item:first-child .step:first-child .num,
+    .successSteps .steps .item:first-child .step:first-child .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num,
+    .successSteps .steps .item:first-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num,
+    .successSteps .steps .item:first-child .step:nth-child(3) .tit {}
+    .successSteps .steps .item:last-child .step:first-child .num,
+    .successSteps .steps .item:last-child .step:first-child .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num,
+    .successSteps .steps .item:last-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num,
+    .successSteps .steps .item:last-child .step:nth-child(3) .tit {}
+    .payInOut {}
+    .payInOut .titBlock .tit {}
+    .payInOut .item:first-child .titBlock {}
+    .payInOut .item:last-child .titBlock {}
+    .payInOut .card {}
+    .payInOut .content>.cfix.margO {}
+    .payInOut .content {}
+    .payInOut .content>.cfix.margO>.item {}
+    .payInOut .card .icon {}
+    .payInOut .card .name {}
+    .payInOut .card .sum {}
+    .payInOut .card .sum .cur {}
+    .payInOut .container>.cfix.margO>.item:last-child .sum {}
+    .payInOut .payTake {}
+    .payInOut .payTake:before {}
+    .payInOut .payTake:after {}
+    .payInOut .payTake .tit {}
+    .payInOut .payTake .cardPay {}
+    .reviewsMain {}
+    .reviewsMain .titBlock {}
+    .siteFooter {}
+    .siteFooter .leftFooter,
+    .siteFooter .rightFooter {}
+    .siteFooter .centerFooter {}
+    .siteFooter .leftFooter {}
+    .siteFooter .rightFooter {}
+    .siteFooter .tradeMark {}
+    .siteFooter .logo {}
+    .siteFooter .logo .txtLogo {}
+    .siteFooter .fond {}
+    .siteFooter .social {}
+    .siteFooter .social [class*="icon"] {}
+    .siteFooter .social li+li {}
+    .siteFooter .tradeMark [class*="icon"] {}
+    .siteFooter .address {}
+    .siteFooter .telegram li+li,
+    .siteFooter .mail {}
+    .siteFooter .copyRight {}
+    .siteFooter .menuList {}
+    .siteFooter .downFooter {}
+    .siteFooter .menuList .linkMenu {}
+    .siteFooter .menuList .linkMenu:hover {}
+    .siteFooter .menuList li {}
+    .siteFooter .menuList li+li {}
+    .inputBlock {}
+    .inputBlock label {}
+    .inputBlock label .star {}
+    .inputBlock label+.wrapInput {}
+    .wrapInput {}
+    .wrapInput input {}
+    .wrapInput textarea {}
+    .preRulesBlock {}
+    .preRules {}
+    .rule .ruleTitle {}
+    .rule .ruleList {}
+    .rule .ruleList .num {}
+    .rule .ruleList .txt+.txt {}
+    .rule .ruleList .item+.item {}
+    .rule+.rule {}
+    .rulesBlock {}
+    .rulesBlock:after,
+    .rulesBlock:before {}
+    .rulesBlock:before {}
+    .rulesBlock:after {}
+    .contentPage.reviewsPage {}
+    .revItem {}
+    .revItem .revHead {}
+    .revItem .revHead .icon {}
+    .revItem .revHead .icon[style*='image'] {}
+    .revItem .revHead .name {}
+    .revItem .revHead .date {}
+    .revItem .revCont {}
+    .revItem .revCont .videoBlock {}
+    .contentPage.ratesPage {}
+    .ratesList {}
+    .ratesList .rateItem {}
+    .ratesList .rateItem:nth-child(2n) {}
+    .ratesList .rateItem:nth-child(2n):before,
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem:nth-child(2n):before {}
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem .ratesData+* {}
+    .ratesList .rateItem .ratesData .item {}
+    .ratesList .rateItem .ratesData .item+.item {}
+    .ratesList .rateItem .ratesData .icon {}
+    .ratesList .rateItem .ratesData .title {}
+    .ratesList .rateItem .ratesData .cont {}
+    .ratesList .rateItem .progressBlock .left {}
+    .progressBlocks .progressItem+.progressItem {}
+    .progressItem .progressWrapp {}
+    .progressItem>span {}
+    .progressItem>span .data {}
+    .progressItem .progressIn {}
+    .progressItem .progressIn.color1 {}
+    .progressItem .progressIn.color2 {}
+    .progressItem .progressIn.color3 {}
+    .ratesList .rateItem .progressBlock .right {}
+    .returtGraf {}
+    .returtGraf .grafCell {}
+    .returtGraf .grafCell+.grafCell {}
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {}
+    .returtGraf .grafCell .footTitle {}
+    .returtGraf .grafCell .date {}
+    .returtGraf .grafCell .grafUp {}
+    .returtGraf .grafCell .grafUp .in {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {}
+    .returtGraf .grafCell .grafDown .in {}
+    .innerHead {}
+    .innerHead.reviewsHead,
+    .innerHead.faqHead {}
+    .innerHead .mainTitle {}
+    .innerHead .subTitle {}
+    .innerHead .btn {
+        margin-top: 15px;
+    }
+    .textBlock:after,
+    .textBlock:before,
+    .textWrapp:after,
+    .textWrapp:before {}
+    .textBlock .textWrapp+.textWrapp {}
+    .textBlock p {}
+    .textBlock *+ul {}
+    .textBlock ul li {}
+    .textBlock ul li:before {}
+    .textBlock .firstCap {}
+    .textBlock .firstCap+* {}
+    .textBlock .secCap {}
+    .textBlock .secCap+* {}
+    .textBlock img {}
+    .textBlock img.leftImage {}
+    .textBlock img.rightImage {}
+    .textBlock .videoBlock {}
+    .textBlock .videoBlock .playIcon {}
+    .textBlock .videoBlock .playIcon:hover {}
+    .textBlock .videoBlock.rightVideo {}
+    .tabs .tabHead ul {}
+    .tabs .tabHead ul li {}
+    .tabs .tabHead ul li+li {}
+    .tabs .tabHead ul li a {}
+    .tabs .tabHead ul li a:hover {}
+    .tabs .tabHead ul li.ui-state-active a,
+    .tabs .tabHead ul li.ui-state-active a:hover {}
+    .tabs .tabCont {}
+    .tabs .tabCont a {}
+    .contentPage.faqPage {}
+    .contentPage.faqPage .tabHead ul {}
+    .contentPage.faqPage .tabCont {}
+    .faqItem .slideTitle {}
+    .faqItem .slideTitle:hover,
+    .faqItem .slideTitle.active {}
+    .faqItem .slideTitle>* {}
+    .faqItem .slideTitle:before {}
+    .faqItem .slideTitle:hover {}
+    .faqItem .slideTitle :not(.plusMinus) {}
+    .faqItem .slideTitle .plusMinus {}
+    .faqItem .slideTitle .plusMinus>* {}
+    .faqItem .slideTitle .plusMinus span:first-child {}
+    .faqItem .slideTitle .plusMinus span:last-child {}
+    .faqItem .slideTitle.active .plusMinus span:last-child {}
+    .faqItem .slideContent {}
+    .faqItem+.faqItem {}
+    .faqBlock .titBlock {}
+    .faqBlock .titBlock .tit {}
+    .faqBlock .titBlock+.content {}
+    .contentPage.contactsPage {}
+    .contactsMain {}
+    .contactsMain .list .item:first-child .tit {}
+    .contactsMain .list .item:nth-child(2) .tit {}
+    .contactsMain .list .item:nth-child(3) .tit {}
+    .contactsMain .list .item:last-child .tit {}
+    .contactsMain .list .linkBlock .link.phone {}
+    .contactsMain .list .linkBlock+.linkBlock {}
+    .contactsMain .list .linkBlock .link.mail {}
+    .contactsMain .list .linkBlock .link {}
+    .contactsMain .list .linkBlock .link:hover {}
+    .contactsMain .list .linkBlock .link.telegram {}
+    .contactsMain .list .item .in {}
+    .contactsPage .backBlue.base {}
+    .contactsPage .backBlue.base:after {}
+    .contactsPage .backBlue.base .backBlock {}
+    .contactsPage .inputBlock label+.wrapInput {}
+    .contactsPage .writeUs .cfix {}
+    .contactsPage .writeUs .cfix>.item {}
+    .contactsPage .writeUs .message {}
+    .contactsPage .writeUs .writeForm {}
+    .legendForm {}
+    .legendForm .star {}
+    .contactsPage .writeUs .btn {}
+    .contactsPage .map {}
+    .contactsPage+footer {}
+    .contactsPage+footer:before {}
+    .contentPage.aboutPage {}
+    .aboutPage>.textBlock {}
+    .aboutPage .plusesGrid {}
+    .aboutPage .plusesGrid.grid:after {}
+    .aboutPage .plusItem {}
+    .aboutPage .plusItem .icon {}
+    .aboutPage .plusItem .plTitle {}
+    .aboutPage .plusItem p {}
+    .aboutPage .grafBlock {}
+    .aboutPage .grafBlock *+.grafEls {}
+    .aboutPage .grafEls .item {}
+    .aboutPage .grafEls .item [class*='color'] {}
+    .aboutPage .grafEls .item+.item {}
+    .aboutPage .grafBlock .left {}
+    .aboutPage .grafBlock .right {}
+}
+
+@media (max-width: 1439px) {
+    * {}
+    body {}
+    p {}
+    ul,
+    ol {}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {}
+    a,
+    button {}
+    a:before,
+    a:after,
+    button:before,
+    button:after {}
+    :before,
+    :after {}
+    button,
+    input,
+    textarea {}
+    button {}
+    .invisLink {}
+    .invisLink a {}
+    .cfix:after {}
+    .left {}
+    .right {}
+    .table {}
+    .tableCell {}
+    .cfix.margO {}
+    .cfix.margO>.item {}
+    .cfix>.item {}
+    .col12 {}
+    .col6 {}
+    .col4 {}
+    .container {}
+    .logo {}
+    .logo:hover {}
+    .siteHeader {}
+    .siteHeader .lineTop {}
+    .siteHeader.innerHeader {}
+    .mainHeader {}
+    .siteHeader .logo {}
+    .siteHeader .logo img {}
+    .siteHeader .headContacts {}
+    .siteFooter .social [class*="icon"],
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts [class*="icon"] {}
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts .mail [class*="icon"],
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .mail,
+    .siteHeader .headContacts .mail {}
+    .siteFooter .mail:hover,
+    .siteHeader .headContacts .mail:hover {}
+    .siteHeader .headContacts .socialBlock,
+    .siteHeader .headContacts .langSite {}
+    .siteHeader .headContacts .socialBlock {}
+    .siteFooter .telegram a,
+    .siteHeader .headContacts .telegram a {}
+    .siteFooter .telegram a:hover,
+    .siteHeader .headContacts .telegram a:hover {}
+    .siteHeader .headContacts .social {}
+    .siteFooter .social a,
+    .siteHeader .headContacts .social a {}
+    .siteFooter .social a:hover,
+    .siteHeader .headContacts .social a:hover {}
+    .siteFooter .social li,
+    .siteHeader .headContacts .social li {}
+    .siteFooter .social li+li,
+    .siteHeader .headContacts .social li+li {}
+    .siteHeader .headContacts .telegram {}
+    .siteHeader .headContacts .telegram li {}
+    .siteHeader .headContacts .telegram li+li {}
+    .siteHeader .headContacts .langSite a {}
+    .siteHeader .headContacts .langSite a:hover {}
+    .siteHeader .headContacts .langSite a.active {}
+    .siteHeader .headContacts .langSite li {}
+    .siteHeader .headContacts .langSite li+li {}
+    .siteHeader .siteMenu {
+        width: 100%;
+    }
+    .siteHeader .siteMenu .linkMenu {}
+    .siteHeader .siteMenu .linkMenu:hover {}
+    .siteHeader .siteMenu .linkMenu:before {background: none;width: calc(100% + 40px);left: -20px;margin-left: 0px;/* border: solid 2px #f411aa; */border-radius: 38px;height: 38px;top: 0px;margin-top: 0px;}
+    .siteHeader .menu li+li {}
+    .siteHeader .siteMenu .linkMenu.active:before {}
+    .siteHeader .siteMenu li {}
+    .siteHeader .toCabinet,
+    .siteHeader .menu {
+        margin-left: 10px;
+    }
+    .siteHeader .toCabinet {
+        float: right;
+    }
+    .siteHeader .toCabinet li+li {}
+    .siteHeader .toCabinet .cabMove {}
+    .siteHeader .toCabinet .cabMove:hover {}
+    .siteHeader .toCabinet .loginCab {}
+    .siteHeader .toCabinet .regCab {}
+    .textGretting {}
+    .textGretting .btn.btnTran {}
+    .textGretting .cap {}
+    .textGretting .desr {}
+    .textGretting .text {}
+    .textGretting .btnTran {}
+    .infoGrettingMain {
+        transform: scale(0.85) translateX(-15%);
+    }
+    .infoGrettingMain:before {}
+    .infoGrettingMain:after {}
+    .infoGrettingMain .circleLogo {}
+    .infoGrettingMain .circleLogo:before {}
+    .infoGrettingMain .circleLogo:after {}
+    .infoGrettingMain [class*="icon"] {}
+    .infoGrettingMain .val {}
+    .infoGrettingMain .desr {}
+    .infoGrettingMain .item {}
+    .infoGrettingMain .item:first-child {}
+    .infoGrettingMain .item:nth-child(2) {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:before {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:last-child:before {}
+    .btn.btnTran {}
+    .btn.btnTran:hover {}
+    .btn.btnTran:before {}
+    .grayBlPixel {}
+    .aboutMain {}
+    .contactsMain .list .cfix,
+    .aboutMain .list .cfix {}
+    .contactsMain .list,
+    .aboutMain .list {}
+    .contactsMain .list:before,
+    .aboutMain .list:before {
+        width: 100%;
+        left: 0px;
+        margin-left: 0px;
+    }
+    .contactsMain .list .item,
+    .aboutMain .list .item {}
+    .contactsMain .list .item .in,
+    .aboutMain .list .item .in {}
+    .contactsMain .list .item .in:before,
+    .aboutMain .list .item .in:before {}
+    .contactsMain .list [class*='icon'],
+    .aboutMain .list [class*='icon'] {}
+    .contactsMain .list .tit,
+    .aboutMain .list .tit {}
+    .contactsMain .list .txt,
+    .aboutMain .list .txt {}
+    .aboutMain .list .txt.note {}
+    .aboutMain .textBl {}
+    .aboutMain .textBl b+* {}
+    .aboutMain .textBl .tit {}
+    .aboutMain .textBl .btnLIne {}
+    .aboutMain .textBl .btn {
+    width: 253px;
+}
+    .btn.btnFull {}
+    .btn.btnFull:hover {}
+    .whiteTxt {}
+    .blueTxt {}
+    .txtBlock {}
+    .txtBlock+.txtBlock {}
+    .titBlock.centerTitle {}
+    .titBlock .tit {}
+    .titBlock .pre {}
+    .backBlue {}
+    .backBlue.base {}
+    .backBlue.base:before,
+    .backBlue.base:after {}
+    .backBlue.base:before {}
+    .backBlue.base:after {}
+    .returnCash {}
+    .returnCash .titBlock {}
+    .aboutCompany {}
+    .aboutCompany>.container>.cfix {}
+    .aboutCompany>.container>.cfix>.item {}
+    .aboutCompany>.container>.cfix>.item:first-child {}
+    .aboutCompany .content {}
+    .aboutCompany .nameBlock {}
+    .aboutCompany .nameBlock .name {}
+    .aboutCompany .nameBlock .address {}
+    .aboutCompany .licensyBlock {}
+    .aboutCompany .licensyBlock .licensy {}
+    .aboutCompany .licensyBlock:before {}
+    .aboutCompany .licensyBlock .licensyImage {}
+    .aboutCompany .licensyBlock .numLicensy {}
+    .aboutCompany .licensyBlock .btnFull {}
+    .successSteps {}
+    .successSteps:after,
+    .backBlue.base .backBlock,
+    .returnCash.backBlue .backBlock {}
+    .returnCash.backBlue:after {}
+    .returnCash.backBlue .backBlock {}
+    .successSteps .circleStep {}
+    .successSteps .circleStep:before {}
+    .successSteps .circleStep .in {}
+    .successSteps .circleStep .in .tit {}
+    .successSteps .circleStep .in .txt {}
+    .successSteps .steps .tit {}
+    .successSteps .steps .txt {}
+    .successSteps .steps .step {}
+    .successSteps .steps .step+.step {}
+    .successSteps .steps .item {}
+    .successSteps .steps .item:last-child {}
+    .successSteps .steps .item:first-child .step {}
+    .successSteps .steps .item:last-child .step {}
+    .successSteps .stepsBlock {}
+    .successSteps .steps {}
+    .successSteps .steps .num {}
+    .successSteps .steps .step:first-child .num {}
+    .successSteps .steps .num:before {}
+    .successSteps .steps .item:first-child .step:first-child .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .step:first-child .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .num {}
+    .successSteps .steps .item:first-child .step:first-child .num,
+    .successSteps .steps .item:first-child .step:first-child .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num,
+    .successSteps .steps .item:first-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num,
+    .successSteps .steps .item:first-child .step:nth-child(3) .tit {}
+    .successSteps .steps .item:last-child .step:first-child .num,
+    .successSteps .steps .item:last-child .step:first-child .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num,
+    .successSteps .steps .item:last-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num,
+    .successSteps .steps .item:last-child .step:nth-child(3) .tit {}
+    .payInOut {
+        overflow: hidden;
+    }
+    .payInOut .titBlock .tit {}
+    .payInOut .item:first-child .titBlock {}
+    .payInOut .item:last-child .titBlock {}
+    .payInOut .card {}
+    .payInOut .content>.cfix.margO {}
+    .payInOut .content {}
+    .payInOut .content>.cfix.margO>.item {}
+    .payInOut .card .icon {}
+    .payInOut .card .name {}
+    .payInOut .card .sum {}
+    .payInOut .card .sum .cur {}
+    .payInOut .container>.cfix.margO>.item:last-child .sum {}
+    .payInOut .payTake {}
+    .payInOut .payTake:before {}
+    .payInOut .payTake:after {}
+    .payInOut .payTake .tit {}
+    .payInOut .payTake .cardPay {}
+    .reviewsMain {}
+    .reviewsMain .titBlock {}
+    .siteFooter {}
+    .siteFooter .leftFooter,
+    .siteFooter .rightFooter {}
+    .siteFooter .centerFooter {}
+    .siteFooter .leftFooter {}
+    .siteFooter .rightFooter {}
+    .siteFooter .tradeMark {}
+    .siteFooter .logo {}
+    .siteFooter .logo .txtLogo {}
+    .siteFooter .fond {}
+    .siteFooter .social {}
+    .siteFooter .social [class*="icon"] {}
+    .siteFooter .social li+li {}
+    .siteFooter .tradeMark [class*="icon"] {}
+    .siteFooter .address {}
+    .siteFooter .telegram li+li,
+    .siteFooter .mail {}
+    .siteFooter .copyRight {}
+    .siteFooter .menuList {}
+    .siteFooter .downFooter {}
+    .siteFooter .menuList .linkMenu {}
+    .siteFooter .menuList .linkMenu:hover {}
+    .siteFooter .menuList li {}
+    .siteFooter .menuList li+li {}
+    .inputBlock {}
+    .inputBlock label {}
+    .inputBlock label .star {}
+    .inputBlock label+.wrapInput {}
+    .wrapInput {}
+    .wrapInput input {}
+    .wrapInput textarea {}
+    .preRulesBlock {}
+    .preRules {}
+    .rule .ruleTitle {}
+    .rule .ruleList {}
+    .rule .ruleList .num {}
+    .rule .ruleList .txt+.txt {}
+    .rule .ruleList .item+.item {}
+    .rule+.rule {}
+    .rulesBlock {}
+    .rulesBlock:after,
+    .rulesBlock:before {}
+    .rulesBlock:before {}
+    .rulesBlock:after {}
+    .contentPage.reviewsPage {}
+    .revItem {}
+    .revItem .revHead {}
+    .revItem .revHead .icon {}
+    .revItem .revHead .icon[style*='image'] {}
+    .revItem .revHead .name {}
+    .revItem .revHead .date {}
+    .revItem .revCont {}
+    .revItem .revCont .videoBlock {}
+    .contentPage.ratesPage {}
+    .ratesList {}
+    .ratesList .rateItem {}
+    .ratesList .rateItem:nth-child(2n) {}
+    .ratesList .rateItem:nth-child(2n):before,
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem:nth-child(2n):before {}
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem .ratesData+* {}
+    .ratesList .rateItem .ratesData .item {}
+    .ratesList .rateItem .ratesData .item+.item {}
+    .ratesList .rateItem .ratesData .icon {}
+    .ratesList .rateItem .ratesData .title {}
+    .ratesList .rateItem .ratesData .cont {}
+    .ratesList .rateItem .progressBlock .left {}
+    .progressBlocks .progressItem+.progressItem {}
+    .progressItem .progressWrapp {}
+    .progressItem>span {}
+    .progressItem>span .data {}
+    .progressItem .progressIn {}
+    .progressItem .progressIn.color1 {}
+    .progressItem .progressIn.color2 {}
+    .progressItem .progressIn.color3 {}
+    .ratesList .rateItem .progressBlock .right {}
+    .returtGraf {}
+    .returtGraf .grafCell {}
+    .returtGraf .grafCell+.grafCell {}
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {}
+    .returtGraf .grafCell .footTitle {}
+    .returtGraf .grafCell .date {}
+    .returtGraf .grafCell .grafUp {}
+    .returtGraf .grafCell .grafUp .in {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {}
+    .returtGraf .grafCell .grafDown .in {}
+    .innerHead {}
+    .innerHead.reviewsHead,
+    .innerHead.faqHead {}
+    .innerHead .mainTitle {}
+    .innerHead .subTitle {}
+    .innerHead .btn {}
+    .textBlock:after,
+    .textBlock:before,
+    .textWrapp:after,
+    .textWrapp:before {}
+    .textBlock .textWrapp+.textWrapp {}
+    .textBlock p {}
+    .textBlock *+ul {}
+    .textBlock ul li {}
+    .textBlock ul li:before {}
+    .textBlock .firstCap {}
+    .textBlock .firstCap+* {}
+    .textBlock .secCap {}
+    .textBlock .secCap+* {}
+    .textBlock img {}
+    .textBlock img.leftImage {}
+    .textBlock img.rightImage {}
+    .textBlock .videoBlock {}
+    .textBlock .videoBlock .playIcon {}
+    .textBlock .videoBlock .playIcon:hover {}
+    .textBlock .videoBlock.rightVideo {}
+    .tabs .tabHead ul {}
+    .tabs .tabHead ul li {}
+    .tabs .tabHead ul li+li {}
+    .tabs .tabHead ul li a {}
+    .tabs .tabHead ul li a:hover {}
+    .tabs .tabHead ul li.ui-state-active a,
+    .tabs .tabHead ul li.ui-state-active a:hover {}
+    .tabs .tabCont {}
+    .tabs .tabCont a {}
+    .contentPage.faqPage {}
+    .contentPage.faqPage .tabHead ul {}
+    .contentPage.faqPage .tabCont {}
+    .faqItem .slideTitle {}
+    .faqItem .slideTitle:hover,
+    .faqItem .slideTitle.active {}
+    .faqItem .slideTitle>* {}
+    .faqItem .slideTitle:before {}
+    .faqItem .slideTitle:hover {}
+    .faqItem .slideTitle :not(.plusMinus) {}
+    .faqItem .slideTitle .plusMinus {}
+    .faqItem .slideTitle .plusMinus>* {}
+    .faqItem .slideTitle .plusMinus span:first-child {}
+    .faqItem .slideTitle .plusMinus span:last-child {}
+    .faqItem .slideTitle.active .plusMinus span:last-child {}
+    .faqItem .slideContent {}
+    .faqItem+.faqItem {}
+    .faqBlock .titBlock {}
+    .faqBlock .titBlock .tit {}
+    .faqBlock .titBlock+.content {}
+    .contentPage.contactsPage {}
+    .contactsMain {}
+    .contactsMain .list .item:first-child .tit {}
+    .contactsMain .list .item:nth-child(2) .tit {}
+    .contactsMain .list .item:nth-child(3) .tit {}
+    .contactsMain .list .item:last-child .tit {}
+    .contactsMain .list .linkBlock .link.phone {}
+    .contactsMain .list .linkBlock+.linkBlock {}
+    .contactsMain .list .linkBlock .link.mail {}
+    .contactsMain .list .linkBlock .link {}
+    .contactsMain .list .linkBlock .link:hover {}
+    .contactsMain .list .linkBlock .link.telegram {}
+    .contactsMain .list .item .in {}
+    .contactsPage .backBlue.base {}
+    .contactsPage .backBlue.base:after {}
+    .contactsPage .backBlue.base .backBlock {}
+    .contactsPage .inputBlock label+.wrapInput {}
+    .contactsPage .writeUs .cfix {}
+    .contactsPage .writeUs .cfix>.item {}
+    .contactsPage .writeUs .message {}
+    .contactsPage .writeUs .writeForm {}
+    .legendForm {}
+    .legendForm .star {}
+    .contactsPage .writeUs .btn {}
+    .contactsPage .map {}
+    .contactsPage+footer {}
+    .contactsPage+footer:before {}
+    .contentPage.aboutPage {}
+    .aboutPage>.textBlock {}
+    .aboutPage .plusesGrid {}
+    .aboutPage .plusesGrid.grid:after {}
+    .aboutPage .plusItem {}
+    .aboutPage .plusItem .icon {}
+    .aboutPage .plusItem .plTitle {}
+    .aboutPage .plusItem p {}
+    .aboutPage .grafBlock {}
+    .aboutPage .grafBlock *+.grafEls {}
+    .aboutPage .grafEls .item {}
+    .aboutPage .grafEls .item [class*='color'] {}
+    .aboutPage .grafEls .item+.item {}
+    .aboutPage .grafBlock .left {}
+    .aboutPage .grafBlock .right {}
+}
+
+@media (max-width: 1199px) {
+    .svgGraf{
+        
+    width: 950px;
+    height: auto;
+    margin-left: -700px;
+    top: 270px;
+    }
+    .siteHeader .headContacts {
+        padding-bottom: 0px;
+    }
+    * {}
+    body {}
+    p {}
+    ul,
+    ol {}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {}
+    a,
+    button {}
+    a:before,
+    a:after,
+    button:before,
+    button:after {}
+    :before,
+    :after {}
+    button,
+    input,
+    textarea {}
+    button {}
+    .invisLink {}
+    .invisLink a {}
+    .cfix:after {}
+    .left {}
+    .right {}
+    .table {}
+    .tableCell {}
+    .cfix.margO {
+        margin: 0px -8px;
+    }
+    .cfix.margO>.item {
+        padding: 0px 8px;
+    }
+    .cfix>.item {}
+    .col12 {}
+    .col6 {}
+    .col4 {}
+    .container {
+        width: 950px;
+    }
+    .logo {}
+    .logo:hover {}
+    .siteHeader {
+        /*! overflow: hidden; */
+        background-size: auto;
+        background-position: center bottom;
+        padding: 0px 15px;
+    }
+    .siteHeader .lineTop {
+        padding-top: 40px;
+    }
+    .siteHeader.innerHeader {
+        background-size: cover;
+        min-height: 580px;
+    }
+    .mainHeader {
+        min-height: 1100px;
+        background-size: auto 1100px;
+        overflow: hidden;
+    }
+    .siteHeader .logo {
+        margin-left: 15px;
+        margin-right: 110px;
+    }
+    .siteHeader .logo img {}
+    .siteHeader .headContacts {
+        width: auto;
+        width: calc(100% - 370px);
+    }
+    .siteFooter .social [class*="icon"],
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts [class*="icon"] {}
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts .mail [class*="icon"],
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .mail,
+    .siteHeader .headContacts .mail {}
+    .siteFooter .mail:hover,
+    .siteHeader .headContacts .mail:hover {}
+    .siteHeader .headContacts .socialBlock,
+    .siteHeader .headContacts .langSite {}
+    .siteHeader .headContacts .socialBlock {}
+    .siteFooter .telegram a,
+    .siteHeader .headContacts .telegram a {}
+    .siteFooter .telegram a:hover,
+    .siteHeader .headContacts .telegram a:hover {}
+    .siteHeader .headContacts .social {}
+    .siteFooter .social a,
+    .siteHeader .headContacts .social a {}
+    .siteFooter .social a:hover,
+    .siteHeader .headContacts .social a:hover {}
+    .siteFooter .social li,
+    .siteHeader .headContacts .social li {}
+    .siteFooter .social li+li,
+    .siteHeader .headContacts .social li+li {}
+    .siteHeader .headContacts .telegram {}
+    .siteHeader .headContacts .telegram li {}
+    .siteHeader .headContacts .telegram li+li {}
+    .siteHeader .headContacts .langSite a {}
+    .siteHeader .headContacts .langSite a:hover {}
+    .siteHeader .headContacts .langSite a.active {}
+    .siteHeader .headContacts .langSite li {}
+    .siteHeader .headContacts .langSite li+li {}
+    .siteHeader .siteMenu {
+        width: 100%;
+    }
+    .siteHeader .siteMenu .linkMenu {
+        padding: 0px 10px;
+        border-radius: 38px;
+    }
+    .siteHeader .siteMenu .linkMenu.active {}
+    .siteHeader .siteMenu .linkMenu:hover {}
+    .siteHeader .siteMenu .linkMenu:before {}
+    .siteHeader .menu li+li {
+        margin-left: 5px;
+    }
+    .siteHeader .siteMenu .linkMenu.active:before {
+        width: calc(100% + 20px);
+        left: -10px;
+        margin-left: 0px;
+        background: none;
+        /* border: solid 2px #f411aa; */
+        height: 100%;
+        top: 0px;
+        margin-top: 0px;
+        border-radius: 38px;
+    }
+    .siteHeader .siteMenu li {}
+    .siteHeader .toCabinet,
+    .siteHeader .menu {}
+    .siteHeader .toCabinet {
+        margin-left: 0px;
+        float: right;
+    }
+    .siteHeader .toCabinet li+li {}
+    .siteHeader .toCabinet .cabMove {}
+    .siteHeader .toCabinet .cabMove:hover {}
+    .siteHeader .toCabinet .loginCab {}
+    .siteHeader .toCabinet .regCab {}
+    .textGretting {
+        padding-top: 35px;
+    }
+    .textGretting .btn.btnTran {
+        margin-top: 76px;
+    }
+    .textGretting .cap {}
+    .textGretting .desr {
+        margin-top: 10px;
+    }
+    .textGretting .text {
+        margin-top: 27px;
+        max-width: 430px;
+        margin-left: auto;
+    }
+    .textGretting .btnTran {}
+    .infoGrettingMain {
+        padding-top: 308px;
+        transform: scale(0.87) translateX(-10px);
+    }
+    .infoGrettingMain:before {}
+    .infoGrettingMain:after {}
+    .infoGrettingMain .circleLogo {}
+    .infoGrettingMain .circleLogo:before {}
+    .infoGrettingMain .circleLogo:after {}
+    .infoGrettingMain [class*="icon"] {}
+    .infoGrettingMain .val {}
+    .infoGrettingMain .desr {}
+    .infoGrettingMain .item {}
+    .infoGrettingMain .item:first-child {}
+    .infoGrettingMain .item:nth-child(2) {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:before {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:last-child:before {}
+    .btn.btnTran {}
+    .btn.btnTran:hover {}
+    .btn.btnTran:before {}
+    .grayBlPixel {}
+    .aboutMain {}
+    .contactsMain .list .cfix,
+    .aboutMain .list .cfix {}
+    .contactsMain .list,
+    .aboutMain .list {
+        padding-bottom: 64px;
+    }
+    .aboutMain .list:before {
+        width: calc(100vw - 17px); 
+        margin-left: calc(((-100vw + 17px) + 100%) / 2); 
+        background-image: url(../img/back-aboutMain-t.png);
+        background-position: center 56px;
+        background-size: 1024px auto;
+        transition: all 0s;
+    }
+    .contactsMain .list:before {
+        display: none;
+    }
+    .contactsMain .list .item,
+    .aboutMain .list .item {}
+    .contactsMain .list .item:last-child .in,
+    .aboutMain .list .item:last-child .in {
+        padding-bottom: 47px;
+    }
+    .aboutMain .list .item .in {
+        padding-left: 17px;
+        padding-right: 0px;
+        padding-bottom: 49px;
+        height: 535px;
+    }
+    .contactsMain .list .item {
+        width: 50%;
+        padding: 10px 8.5px 0px;
+    }
+    .contactsMain .list .item .table {
+        width: 100%;
+        display: block;
+    }
+    .contactsMain .list .item .in {
+        min-height: 315px;
+        background-color: #fff;
+        border-radius: 17px;
+        width: 100%;
+        display: block;
+        -webkit-box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        -moz-box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 45px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .contactsMain .list .item .in:before,
+    .aboutMain .list .item .in:before {}
+    .contactsMain .list [class*='icon'],
+    .aboutMain .list [class*='icon'] {}
+    .contactsMain .list .tit,
+    .aboutMain .list .tit {
+        font-size: 25px;
+    }
+    .contactsMain .list .tit {
+        margin-top: 20px !important;
+    }
+    .contactsMain .list .txt,
+    .aboutMain .list .txt {}
+    .contactsMain .list .txt .linkBlock {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 20px;
+    }
+    .contactsMain .list .txt .linkBlock+.linkBlock {}
+    .aboutMain .list .txt.note {}
+    .aboutMain .textBl {
+        padding-top: 36px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 30px;
+        padding-bottom: 37px;
+    }
+    .aboutMain .textBl b+* {
+        margin-top: 30px;
+    }
+    .aboutMain .textBl .tit {
+        margin-top: 32px;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutMain .textBl .btnLIne {}
+    .aboutMain .textBl .btn {
+    width: 253px;
+}
+    .btn.btnFull {}
+    .btn.btnFull:hover {}
+    .whiteTxt {}
+    .blueTxt {}
+    .txtBlock {}
+    .txtBlock+.txtBlock {}
+    .titBlock.centerTitle {}
+    .titBlock .tit {}
+    .titBlock .pre {}
+    .backBlue {}
+    .backBlue.base {}
+    .backBlue.base:before,
+    .backBlue.base:after {}
+    .backBlue.base:before {}
+    .backBlue.base:after {}
+    .returnCash {
+        padding-bottom: 173px;
+    }
+    .returnCash .titBlock {}
+    .aboutCompany {
+        padding-bottom: 120px;
+    }
+    .aboutCompany>.container>.cfix {}
+    .aboutCompany>.container>.cfix>.item {
+        width: 50%;
+    }
+    .aboutCompany>.container>.cfix>.item:first-child {
+        padding-right: 15px;
+    }
+    .aboutCompany>.container>.cfix>.item:last-child {
+        padding-right: 0px;
+    }
+    .aboutCompany .content {
+        margin-top: 94px;
+    }
+    .aboutCompany .nameBlock {}
+    .aboutCompany .nameBlock .name {}
+    .aboutCompany .nameBlock .address {}
+    .aboutCompany .licensyBlock {
+        padding-left: 70px;
+    }
+    .aboutCompany .licensyBlock .licensy {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .aboutCompany .licensyBlock:before {}
+    .aboutCompany .licensyBlock .licensyImage {}
+    .aboutCompany .licensyBlock .numLicensy {}
+    .aboutCompany .licensyBlock .btnFull {}
+    .successSteps {
+        padding-top: 168px;
+        padding-bottom: 160px;
+        background-position: center;
+        background-image: url(../img/back-steps-t.png) !important;
+        background-size: 100% auto;
+    }
+    .successSteps:after {
+        display: none;
+    }
+    .successSteps:after,
+    .backBlue.base .backBlock,
+    .returnCash.backBlue .backBlock {
+        left: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .successSteps::after {
+        background-size: 1400px;
+    }
+    .returnCash.backBlue:after {}
+    .returnCash.backBlue .backBlock {}
+    .successSteps .circleStep {
+        width: 300px;
+        height: 300px;
+        margin-left: -150px;
+        margin-top: -170px;
+    }
+    .successSteps .circleStep:before {
+        width: 355px;
+        height: 355px;
+        margin-left: -177.5px;
+        margin-top: -177.5px;
+    }
+    .successSteps .circleStep .in {}
+    .successSteps .circleStep .in .tit {}
+    .successSteps .circleStep .in .txt {}
+    .successSteps .steps .tit {}
+    .successSteps .steps .txt {}
+    .successSteps .steps .step {
+        width: 260px;
+    }
+    .successSteps .steps .step+.step {
+        margin-top: 60px;
+    }
+    .successSteps .steps .item {}
+    .successSteps .steps .item:last-child {}
+    .successSteps .steps .item:first-child .step {
+        padding-right: 80px;
+        text-align: left;
+    }
+    .successSteps .steps .item:last-child .step {
+        padding-left: 80px;
+    }
+    .successSteps .stepsBlock {}
+    .successSteps .steps {}
+    .successSteps .steps .num {
+        width: 77px;
+        height: 77px;
+        line-height: 60px;
+        font-size: 29px;
+    }
+    .successSteps .steps .step:first-child .num {}
+    .successSteps .steps .num:before {display: none;}
+    .successSteps .steps .item:first-child .step:first-child .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .step:first-child .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num:before {
+        width: 54px;
+        background-position: left 0px;
+    }
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {
+        width: 54px;
+        background-position: right 0px;
+    }
+    .successSteps .steps .item:last-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .num {}
+    .successSteps .steps .item:first-child .step:first-child .num,
+    .successSteps .steps .item:first-child .step:first-child .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num,
+    .successSteps .steps .item:first-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num,
+    .successSteps .steps .item:first-child .step:nth-child(3) .tit {}
+    .successSteps .steps .item:last-child .step:first-child .num,
+    .successSteps .steps .item:last-child .step:first-child .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num,
+    .successSteps .steps .item:last-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num,
+    .successSteps .steps .item:last-child .step:nth-child(3) .tit {}
+    .payInOut {
+        padding-top: 133px;
+    }
+    .payInOut .titBlock .tit {}
+    .payInOut .item:first-child .titBlock {}
+    .payInOut .item:last-child .titBlock {}
+    .payInOut .card {}
+    .payInOut .content>.cfix.margO {}
+    .payInOut .content {}
+    .payInOut .content>.cfix.margO>.item {
+        width: 50%;
+    }
+    .payInOut .card .icon {}
+    .payInOut .card .name {}
+    .payInOut .card .sum {}
+    .payInOut .card .sum .cur {}
+    .payInOut .container>.cfix.margO>.item:last-child .sum {}
+    .payInOut .payTake {}
+    .payInOut .payTake:before {}
+    .payInOut .payTake:after {}
+    .payInOut .payTake .tit {}
+    .payInOut .payTake .cardPay {}
+    .reviewsMain {}
+    .reviewsMain .titBlock {}
+    .siteFooter {padding-top: 130px;}
+    .siteFooter .leftFooter,
+    .siteFooter .rightFooter {
+        width: 260px;
+    }
+    .siteFooter .centerFooter {
+        width: calc(100% - 520px);
+    }
+    .siteFooter .leftFooter {}
+    .siteFooter .rightFooter {}
+    .siteFooter .tradeMark {}
+    .siteFooter .logo {}
+    .siteFooter .logo .txtLogo {}
+    .siteFooter .fond {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .siteFooter .social {}
+    .siteFooter .social [class*="icon"] {}
+    .siteFooter .social li+li {}
+    .siteFooter .tradeMark [class*="icon"] {}
+    .siteFooter .address {}
+    .siteFooter .telegram li+li,
+    .siteFooter .mail {}
+    .siteFooter .copyRight {}
+    .siteFooter .menuList {}
+    .siteFooter .downFooter {}
+    .siteFooter .menuList .linkMenu {}
+    .siteFooter .menuList .linkMenu:hover {}
+    .siteFooter .menuList li {
+        margin: 0px 25px;
+    }
+    .siteFooter .menuList li+li {
+        margin-left: 25px;
+    }
+    .inputBlock {}
+    .inputBlock label {}
+    .inputBlock label .star {}
+    .inputBlock label+.wrapInput {}
+    .wrapInput {}
+    .wrapInput input {}
+    .wrapInput textarea {}
+    .preRulesBlock {}
+    .preRules {}
+    .rule .ruleTitle {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .rule .ruleList {
+        margin-top: 25px;
+    }
+    .rule .ruleList .num {}
+    .rule .ruleList .txt+.txt {}
+    .rule .ruleList .item+.item {}
+    .rule+.rule {}
+    .rulesBlock {}
+    .rulesBlock:after,
+    .rulesBlock:before {}
+    .rulesBlock:before {}
+    .rulesBlock:after {}
+    .contentPage.reviewsPage {}
+    .revItem {}
+    .revItem .revHead {}
+    .revItem .revHead .icon {}
+    .revItem .revHead .icon[style*='image'] {}
+    .revItem .revHead .name {}
+    .revItem .revHead .date {}
+    .revItem .revCont {}
+    .revItem .revCont .videoBlock {}
+    .contentPage.ratesPage {}
+    .ratesList {}
+    .ratesList .rateItem {
+        padding-top: 70px;
+    }
+    .ratesList .rateItem:nth-child(2n) {}
+    .ratesList .rateItem:nth-child(2n):before,
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem:nth-child(2n):before {}
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem .ratesData+* {}
+    .ratesList .rateItem .ratesData .item {}
+    .ratesList .rateItem .ratesData .item+.item {}
+    .ratesList .rateItem .ratesData .icon {}
+    .ratesList .rateItem .ratesData .title {}
+    .ratesList .rateItem .ratesData .cont {}
+    .ratesList .rateItem .progressBlock .left {}
+    .progressBlocks .progressItem+.progressItem {}
+    .progressItem .progressWrapp {}
+    .progressItem>span {}
+    .progressItem>span .data {}
+    .progressItem .progressIn {}
+    .progressItem .progressIn.color1 {}
+    .progressItem .progressIn.color2 {}
+    .progressItem .progressIn.color3 {}
+    .ratesList .rateItem .progressBlock .right {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .returtGraf {
+        /*! height: 600px; */
+    }
+    .returtGraf .grafCell {}
+    .returtGraf .grafCell+.grafCell {}
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {}
+    .returtGraf .grafCell .footTitle {}
+    .returtGraf .grafCell .date {}
+    .returtGraf .grafCell .grafUp {}
+    .returtGraf .grafCell .grafUp .in {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {}
+    .returtGraf .grafCell .grafDown .in {}
+    .innerHead {
+        margin-top: 20px;
+    }
+    .innerHead.reviewsHead,
+    .innerHead.faqHead {}
+    .innerHead .mainTitle {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .innerHead .subTitle {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 0px;
+    }
+    .innerHead .btn {}
+    .innerHead .btn:before {
+        /*! background-size: 100% 80%; */
+    }
+    .textBlock:after,
+    .textBlock:before,
+    .textWrapp:after,
+    .textWrapp:before {}
+    .textBlock .textWrapp+.textWrapp {}
+    .textBlock p {}
+    .textBlock *+ul {}
+    .textBlock ul li {}
+    .textBlock ul li:before {}
+    .textBlock .firstCap {
+        /*! padding-bottom: 350px; */
+    }
+    .textBlock .firstCap+* {}
+    .textBlock .secCap {}
+    .textBlock .secCap+* {}
+    .textBlock img {}
+    .textBlock img.leftImage {}
+    .textBlock img.rightImage {}
+    .textBlock .videoBlock {}
+    .textBlock .videoBlock .playIcon {}
+    .textBlock .videoBlock .playIcon:hover {}
+    .textBlock .videoBlock.rightVideo {
+        /*! float: none; */
+        /*! margin-left: 8px; */
+        /*! height: 300px; */
+        /*! position: absolute; */
+        /*! bottom: calc(100% - 350px); */
+/*         display: none; */
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .reviewsMain {
+        overflow: hidden;
+    }
+    .reviewsMain .carouselRev {
+        width: 1200px;
+        margin-left: calc((100% - 1200px) / 2);
+    }
+    .tabs .tabHead ul {}
+    .tabs .tabHead ul li {}
+    .tabs .tabHead ul li+li {
+        margin-left: 15px;
+    }
+    .tabs .tabHead ul li a {
+        font-size: 16px;
+        line-height: 38px;
+        min-width: auto;
+        padding: 0px 20px;
+    }
+    .tabs .tabHead ul li a:hover {}
+    .tabs .tabHead ul li.ui-state-active a,
+    .tabs .tabHead ul li.ui-state-active a:hover {}
+    .tabs .tabCont {
+        padding-top: 35px;
+    }
+    .tabs .tabCont a {}
+    .contentPage.faqPage {}
+    .contentPage.faqPage .tabHead ul {}
+    .contentPage.faqPage .tabCont {}
+    .contentPage.faqPage .tabs .tabHead {
+        padding: 0px 30px;
+    }
+    .faqItem .slideTitle {}
+    .faqItem .slideTitle:hover,
+    .faqItem .slideTitle.active {}
+    .faqItem .slideTitle>* {}
+    .faqItem .slideTitle:before {}
+    .faqItem .slideTitle:hover {}
+    .faqItem .slideTitle :not(.plusMinus) {}
+    .faqItem .slideTitle .plusMinus {}
+    .faqItem .slideTitle .plusMinus>* {}
+    .faqItem .slideTitle .plusMinus span:first-child {}
+    .faqItem .slideTitle .plusMinus span:last-child {}
+    .faqItem .slideTitle.active .plusMinus span:last-child {}
+    .faqItem .slideContent {}
+    .faqItem+.faqItem {}
+    .faqBlock .titBlock {}
+    .faqBlock .titBlock .tit {}
+    .faqBlock .titBlock+.content {}
+    .contentPage.contactsPage {}
+    .contactsMain {
+        padding-top: 140px;
+    }
+    .contactsMain .list .item:first-child .tit {}
+    .contactsMain .list .item:nth-child(2) .tit {}
+    .contactsMain .list .item:nth-child(3) .tit {}
+    .contactsMain .list .item:last-child .tit {}
+    .contactsMain .list .linkBlock .link.phone {}
+    .contactsMain .list .linkBlock+.linkBlock {}
+    .contactsMain .list .linkBlock .link.mail {}
+    .contactsMain .list .linkBlock .link {}
+    .contactsMain .list .linkBlock .link:hover {}
+    .contactsMain .list .linkBlock .link.telegram {}
+    .contactsMain .list .item .in {}
+    .contactsPage .backBlue.base {}
+    .contactsPage .backBlue.base:after {}
+    .contactsPage .backBlue.base .backBlock {}
+    .contactsPage .inputBlock label+.wrapInput {}
+    .contactsPage .writeUs .cfix {}
+    .contactsPage .writeUs .cfix>.item {}
+    .contactsPage .writeUs .message {}
+    .contactsPage .writeUs .writeForm {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .legendForm {}
+    .legendForm .star {}
+    .contactsPage .writeUs .btn {}
+    .contactsPage .map {}
+    .contactsPage+footer {}
+    .contactsPage+footer:before {}
+    .contentPage.aboutPage {}
+    .aboutPage>.textBlock {}
+    .aboutPage .plusesGrid {}
+    .aboutPage .plusesGrid.grid:after {}
+    .aboutPage .plusItem {padding-left: 60px;}
+    .aboutPage .plusItem .icon {background-size: 40px;width: 50px;}
+    .aboutPage .plusItem .plTitle {}
+    .aboutPage .plusItem p {}
+    .aboutPage .grafBlock {}
+    .aboutPage .grafBlock *+.grafEls {}
+    .aboutPage .grafEls .item {}
+    .aboutPage .grafEls .item [class*='color'] {}
+    .aboutPage .grafEls .item+.item {}
+    .aboutPage .grafBlock .left {}
+    .aboutPage .grafBlock .right {}
+}
+
+@media (max-width: 1050px) {
+    .mainHeader {
+        background-image: url(../img/back-header-main-t.png) !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .siteHeader .siteMenu {
+        display: block !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .svgGraf{
+        
+    width: 700px;
+    height: auto;
+    margin-left: -474px;
+    top: 46px;
+    }
+    .menuBtn {
+        display: block;
+    }
+    * {}
+    body {}
+    p {}
+    ul,
+    ol {}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {}
+    a,
+    button {}
+    a:before,
+    a:after,
+    button:before,
+    button:after {}
+    :before,
+    :after {}
+    button,
+    input,
+    textarea {}
+    button {}
+    .invisLink {}
+    .invisLink a {}
+    .cfix:after {}
+    .left {}
+    .right {}
+    .table {}
+    .tableCell {}
+    .cfix.margO {}
+    .cfix.margO>.item {}
+    .cfix>.item {}
+    .col12 {}
+    .col6 {}
+    .col4 {}
+    .container {
+        width: 100%;
+        padding: 0px 8px;
+    }
+    .logo {}
+    .logo:hover {}
+    .siteHeader {
+        padding: 0px;
+    }
+    .siteHeader .lineTop {
+        padding-top: 55px;
+        padding-bottom: 0px;
+    }
+    .siteHeader.innerHeader {
+        min-height: 460px;
+        z-index: 3;
+    }
+    .mainHeader {
+        background-image: url(../img/back-header-main-m.png) !important;
+        min-height: 475px;
+        background-size: cover;
+        background-position: center bottom;
+        margin-bottom: -115px;
+        overflow: visible;
+    }
+    .siteHeader .logo {
+        width: 200px;
+    }
+    .siteHeader .logo img {}
+    .siteHeader .headContacts {}
+    .siteFooter .social [class*="icon"],
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts [class*="icon"] {}
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts .mail [class*="icon"],
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .mail,
+    .siteHeader .headContacts .mail {}
+    .siteHeader .headContacts .mail {
+        display: none;
+    }
+    .siteFooter .mail:hover,
+    .siteHeader .headContacts .mail:hover {}
+    .siteHeader .headContacts .socialBlock,
+    .siteHeader .headContacts .langSite {}
+    .siteHeader .headContacts .langSite {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .siteHeader .headContacts .socialBlock {}
+    .siteFooter .telegram a,
+    .siteHeader .headContacts .telegram a {}
+    .siteFooter .telegram a:hover,
+    .siteHeader .headContacts .telegram a:hover {}
+    .siteHeader .headContacts .social {
+        margin: 0px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        float: none;
+    }
+    .siteFooter .social a,
+    .siteHeader .headContacts .social a {}
+    .siteFooter .social a:hover,
+    .siteHeader .headContacts .social a:hover {}
+    .siteFooter .social li,
+    .siteHeader .headContacts .social li {}
+    .siteFooter .social li+li,
+    .siteHeader .headContacts .social li+li {}
+    .siteHeader .headContacts .telegram {
+        display: none;
+        display: block;
+        margin: 0px;
+        position: absolute;
+        left: 119px;
+        top: 10px;
+        float: none;
+    }
+    .siteHeader .headContacts .telegram li {}
+    .siteHeader .headContacts .telegram li+li {}
+    .siteHeader .headContacts .langSite a {}
+    .siteHeader .headContacts .langSite a:hover {}
+    .siteHeader .headContacts .langSite a.active {}
+    .siteHeader .headContacts .langSite li {}
+    .siteHeader .headContacts .langSite li+li {}
+    .siteHeader .siteMenu {
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+        top: 120px;
+        background-color: #0a0c44;
+        display: none;
+        z-index: 3;
+    }
+    .siteHeader .siteMenu .linkMenu {
+        display: block;
+        width: 100%;
+        text-align: right;
+        padding: 0px 15px;
+        line-height: 48px;
+        border-radius: 0px;
+        letter-spacing: 0.025em;
+        -webkit-transition: background .3s;
+        -moz-transition: background .3s;
+        -o-transition: background .3s;
+        transition: background .3s;
+    }
+    .siteHeader .siteMenu .linkMenu.active {
+        background-color: #e33a8c;
+    }
+    .siteHeader .siteMenu .linkMenu:hover {
+        background-color: #ff80be;
+        opacity: 1;
+    }
+    .siteHeader .siteMenu .linkMenu:hover {}
+    .siteHeader .siteMenu .linkMenu:before {
+        display: none;
+    }
+    .siteHeader .menu li+li {
+        margin-left: 0px;
+    }
+    .siteHeader .siteMenu .linkMenu.active:before {
+        display: none;
+    }
+    .siteHeader .siteMenu li {
+        display: block;
+        width: 100%;
+        float: none;
+        border-top: solid 1px rgba(255, 255, 255, 0.21);
+    }
+    .siteHeader .toCabinet,
+    .siteHeader .menu {
+        float: none;
+        margin: 0px;
+    }
+    .siteHeader .menu {
+        border-top: solid 1px rgba(255, 255, 255, 0.21);
+    }
+    .siteHeader .toCabinet {
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .siteHeader .toCabinet li+li {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .siteHeader .toCabinet .cabMove {
+        display: block;
+        width: 100%;
+        text-align: right;
+        height: 48px;
+        border-radius: 0px;
+        background: none;
+        padding-right: 15px;
+    }
+    .siteHeader .toCabinet .cabMove:hover {
+        background-color: #ff80be;
+        opacity: 1;
+    }
+    .siteHeader .toCabinet .cabMove:hover {}
+    .siteHeader .toCabinet .loginCab {}
+    .siteHeader .toCabinet .regCab {}
+    .textGretting {
+        padding-top: 0px;
+        margin-top: 55px;
+    }
+    .textGretting .btn.btnTran {
+        display: none;
+    }
+    .textGretting .cap {
+        font-size: 51px;
+        line-height: 56px;
+        max-width: 220px;
+        padding-right: 20px;
+        text-align: right;
+        margin-left: auto;
+    }
+    .textGretting .desr {
+        font-size: 23px;
+        line-height: 30px;
+        max-width: 220px;
+        padding-right: 20px;
+        text-align: right;
+        margin-left: auto;
+    }
+    .textGretting .text {
+        display: none;
+    }
+    .textGretting .btnTran {}
+    .infoGrettingMain {
+        width: auto;
+        padding-top: 70px;
+        padding-left: 75px;
+        transform: scale(1);
+    }
+    .infoGrettingMain:before {}
+    .infoGrettingMain:after {}
+    .infoGrettingMain .circleLogo {
+        width: auto;
+        height: auto;
+        background: none !important;
+        border: 0px;
+        float: none;
+        display: table;
+    }
+    .infoGrettingMain .circleLogo:before {
+        display: none;
+    }
+    .infoGrettingMain .circleLogo:after {
+        display: none;
+    }
+    .infoGrettingMain [class*="icon"] {
+        background-color: transparent;
+        border-radius: 0px;
+        width: 60px;
+        height: 60px;
+        right: -10px;
+        background-size: 42px;
+        background-position: center;
+        margin-top: -30px;
+    }
+    .infoGrettingMain .val {
+        font-size: 25px;
+        line-height: 30px;
+        display: block;
+        white-space: nowrap;
+        position: absolute;
+        top: 26px;
+        right: 60px;
+    }
+    .infoGrettingMain .desr {
+        font-size: 17px;
+        line-height: 30px;
+        display: block;
+        white-space: nowrap;
+        padding-bottom: 30px;
+    }
+    .infoGrettingMain .item+.item {
+        margin-top: 10px;
+    }
+    .infoGrettingMain .item {
+        background: none;
+        margin-right: 0px !important;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+        position: relative;
+        top: auto !important;
+        width: 100% !important;
+        right: auto;
+    }
+    .infoGrettingMain .item:first-child {}
+    .infoGrettingMain .item:nth-child(2) {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:before {
+        display: none;
+    }
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:last-child:before {}
+    .btn.btnTran {}
+    .btn.btnTran:hover {}
+    .btn.btnTran:before {
+        background-size: 80%;
+    }
+    .grayBlPixel {}
+    .aboutMain {
+        padding-top: 155px;
+        background: none !important;
+    }
+    .aboutMain+* {
+        margin-top: 150px;
+    }
+    .contactsMain .list .cfix,
+    .aboutMain .list .cfix {
+        margin: -10px -8.5px 0px;
+    }
+    .contactsMain .list,
+    .aboutMain .list {
+        padding-bottom: 35px;
+    }
+    .contactsMain .list:before,
+    .aboutMain .list:before {
+        display: none;
+    }
+    .contactsMain .list .item,
+    .aboutMain .list .item {
+        width: 50%;
+        padding: 10px 8.5px 0px;
+    }
+    .contactsMain .list .item .table,
+    .aboutMain .list .item .table {
+        display: block;
+        width: 100%;
+    }
+    .contactsMain .list .item .in,
+    .aboutMain .list .item .in {
+        min-height: 295px;
+        background-color: #fff;
+        border-radius: 17px;
+        width: 100%;
+        display: block;
+        -webkit-box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        -moz-box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 45px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .contactsMain .list .item:nth-child(n + 3) .in,
+    .aboutMain .list .item:nth-child(n + 3) .in {
+        min-height: 370px;
+        padding-bottom: 20px;
+    }
+    .contactsMain .list .item .in:before,
+    .aboutMain .list .item .in:before {}
+    .contactsMain .list [class*='icon'],
+    .aboutMain .list [class*='icon'] {}
+    .contactsMain .list .tit,
+    .aboutMain .list .tit {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .contactsMain .list .txt,
+    .aboutMain .list .txt {
+        margin-top: 0px;
+    }
+    .aboutMain .list .txt.note {}
+    .aboutMain .textBl {
+        -webkit-box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        -moz-box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        box-shadow: 0 0 65px rgba(174, 170, 212, 0.33);
+        margin-top: 0px;
+    }
+    .devR{padding-bottom:17px;}
+    .aboutMain .textBl b+* {}
+    .aboutMain .textBl .tit {}
+    .aboutMain .textBl .btnLIne {}
+    .aboutMain .textBl .btn {}
+    .btn.btnFull {}
+    .btn.btnFull:hover {}
+    .whiteTxt {}
+    .blueTxt {}
+    .txtBlock {}
+    .txtBlock+.txtBlock {}
+    .titBlock.centerTitle {}
+    .titBlock .tit {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .titBlock .pre {
+        font-size: 24px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .backBlue {}
+    .backBlue.base {
+        padding: 60px 0px;
+    }
+    .backBlue.base:before,
+    .backBlue.base:after {}
+    .backBlue.base:before {}
+    .backBlue.base:after {}
+    .returnCash {
+        padding-top: 60px;
+        overflow: hidden;
+    }
+    .returnCash .titBlock {}
+    .aboutCompany {
+        background: none !important;
+        margin-top: 0px;
+        padding-top: 60px;
+        padding-bottom: 75px;
+    }
+    .aboutCompany>.container>.cfix {
+        margin: 0px -8px;
+    }
+    .aboutCompany>.container>.cfix>.item {
+        width: 50%;
+    }
+    .aboutCompany>.container>.cfix>.item:first-child {
+        padding-left: 8px;
+    }
+    .aboutCompany>.container>.cfix>.item:last-child {
+        padding-right: 8px;
+        padding-left: 15px;
+    }
+    .aboutCompany .content {
+        margin-top: 25px;
+    }
+    .aboutCompany .nameBlock {}
+    .aboutCompany .nameBlock .name {
+        display: block;
+        text-align: left;
+    }
+    .aboutCompany .nameBlock .address {
+        margin-top: 20px;
+        display: block;
+        text-align: left;
+        padding-right: 0px;
+        background: none;
+    }
+    .aboutCompany .licensyBlock {}
+    .aboutCompany .licensyBlock .licensy {}
+    .aboutCompany .licensyBlock:before {
+        display: none;
+    }
+    .aboutCompany .licensyBlock .licensyImage {}
+    .aboutCompany .licensyBlock .numLicensy {}
+    .aboutCompany .licensyBlock .btnFull {}
+    .successSteps {
+        background-image: url(../img/steps-m.jpg) !important;
+        margin-top: 0px;
+        background-size: cover;
+        padding: 50px 0px 85px;
+    }
+    .successSteps:after,
+    .backBlue.base .backBlock,
+    .returnCash.backBlue .backBlock {
+        background-size: 750px auto;
+        background-position: center 140px;
+    }
+    .returnCash.backBlue:after {
+        display: none;
+    }
+    .returnCash.backBlue .backBlock {}
+    .successSteps .circleStep {
+        position: static;
+        margin: 0 auto;
+        background: none;
+        box-shadow: none;
+        width: auto;
+        height: auto;
+    }
+    .successSteps .circleStep:before {
+        display: none;
+    }
+    .successSteps .circleStep .in {
+        padding: 0px;
+    }
+    .successSteps .circleStep .in .tit {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .successSteps .circleStep .in .txt {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .successSteps .steps .tit {}
+    .successSteps .steps .txt {}
+    .successSteps .steps .step {
+        width: auto;
+        padding-left: 105px;
+        padding-right: 0px !important;
+        max-width: 365px;
+        min-height: 100px;
+    }
+    .successSteps .steps .step+.step {
+        margin-top: 95px;
+    }
+    .successSteps .steps .item {}
+    .successSteps .steps .item:last-child {}
+    .successSteps .steps .item:first-child .step {}
+    .successSteps .steps .item:last-child .step {padding-left: 99px;}
+    .successSteps .stepsBlock {}
+    .successSteps .steps {
+        margin-top: 55px;
+    }
+    .successSteps .steps .num {
+        height: 95px;
+        width: 95px;
+        line-height: 75px;
+        border-width: 7px;
+        /*! top: 50% !important; */
+        /*! margin-top: -42.5px; */
+        left: 0px;
+        font-size: 35px;
+        top: -20px;
+    }
+    .successSteps .steps .step:first-child .num {}
+    .successSteps .steps .num:before {
+        display: none;
+    }
+    .successSteps .steps .item:first-child .step:first-child .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .step:first-child .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .num {}
+    .successSteps .steps .item:first-child .step:first-child .num,
+    .successSteps .steps .item:first-child .step:first-child .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num,
+    .successSteps .steps .item:first-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num,
+    .successSteps .steps .item:first-child .step:nth-child(3) .tit {}
+    .successSteps .steps .item:last-child .step:first-child .num,
+    .successSteps .steps .item:last-child .step:first-child .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num,
+    .successSteps .steps .item:last-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num,
+    .successSteps .steps .item:last-child .step:nth-child(3) .tit {}
+    .payInOut {
+        position: static;
+        padding-top: 45px;
+        background: none;
+        padding-bottom: 60px;
+    }
+    .payInOut .titBlock .tit {
+        font-size: 40px;
+        line-height: 35px;
+        min-height: 70px;
+        display: block;
+    }
+    .payInOut .item:first-child .titBlock {}
+    .payInOut .item:last-child .titBlock {}
+    .payInOut .card {}
+    .payInOut .content>.cfix.margO {}
+    .payInOut .content {
+        margin-top: 50px;
+    }
+    .payInOut .content>.cfix.margO>.item {}
+    .payInOut .card .icon {}
+    .payInOut .card .name {}
+    .payInOut .card .sum {}
+    .payInOut .card .sum .cur {}
+    .payInOut .container>.cfix.margO>.item:last-child .sum {}
+    .payInOut .payTake {
+        margin-top: 50px;
+    }
+    .payInOut .payTake:before {}
+    .payInOut .payTake:after {}
+    .payInOut .payTake .tit {}
+    .payInOut .payTake .cardPay {}
+    .reviewsMain .carouselRev {
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+    }
+    .reviewsMain {
+        background-image: none !important;
+        background-color: #fff !important;
+        position: relative;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        margin-top: 0px;
+        padding-bottom: 0px !important;
+    }
+    .reviewsMain::before {
+        top: 76px;
+    }
+    .carouselRev .center .review {
+        padding-bottom: 140px;
+        width: 100%;
+        max-width: 565px;
+        left: auto;
+        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carouselRev .center .name {
+        margin-top: 60px
+    }
+    .reviewsMain .titBlock {}
+    .siteFooter {
+        padding-top: 410px;
+        background-position: center -50px;
+        text-align: center;
+        padding-bottom: 130px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#232261+0,2d0c57+100 */
+        background: #232261;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #232261 0%, #2d0c57 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #232261 0%, #2d0c57 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #232261 0%, #2d0c57 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232261', endColorstr='#2d0c57', GradientType=0);
+        /* IE6-9 */
+    }
+    .siteFooter .leftFooter,
+    .siteFooter .rightFooter {
+        width: 300px;
+        padding-top: 45px;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .siteFooter .centerFooter {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        width: 100%;
+        height: calc(100% - 30px);
+        z-index: -1;
+    }
+    .siteFooter .leftFooter {
+        text-align: left;
+    }
+    .siteFooter .rightFooter {
+        padding-left: 50px;
+    }
+    .siteFooter .tradeMark {}
+    .siteFooter .logo {}
+    .siteFooter .logo .txtLogo {}
+    .siteFooter .fond {}
+    .siteFooter .social {}
+    .siteFooter .social [class*="icon"] {}
+    .siteFooter .social li+li {}
+    .siteFooter .tradeMark [class*="icon"] {
+        left: -40px;
+    }
+    .siteFooter .address {}
+    .siteFooter .telegram li+li,
+    .siteFooter .mail {}
+    .siteFooter .copyRight {
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        max-width: 250px;
+        margin-left: -125px;
+        margin-top: 0px;
+        line-height: 24px;
+    }
+    .siteFooter .menuList {}
+    .siteFooter .downFooter {
+        display: none;
+    }
+    .siteFooter .menuList .linkMenu {}
+    .siteFooter .menuList .linkMenu:hover {}
+    .siteFooter .menuList li {}
+    .siteFooter .menuList li+li {}
+    .inputBlock {}
+    .inputBlock label {}
+    .inputBlock label .star {}
+    .inputBlock label+.wrapInput {}
+    .wrapInput {}
+    .wrapInput input {}
+    .wrapInput textarea {}
+    .preRulesBlock {}
+    .preRules {}
+    .rule .ruleTitle {}
+    .rule .ruleList {}
+    .rule .ruleList .num {}
+    .rule .ruleList .txt+.txt {}
+    .rule .ruleList .item+.item {}
+    .rule+.rule {}
+    .rulesBlock {}
+    .rulesBlock:after,
+    .rulesBlock:before {}
+    .rulesBlock:before {}
+    .rulesBlock:after {}
+    .contentPage.reviewsPage {
+        padding-bottom: 70px;
+    }
+    .tabs .tabHead {
+        padding: 0px 30px
+    }
+    .tabs .tabCont {
+        padding: 20px 30px 0px;
+    }
+    .revItem {
+        padding: 0px 20px;
+    }
+    .revItem .revHead {}
+    .revItem .revHead .icon {}
+    .revItem .revHead .icon[style*='image'] {}
+    .revItem .revHead .name {}
+    .revItem .revHead .date {}
+    .revItem .revCont {
+        padding-top: 20px;
+    }
+    .revItem .revCont .videoBlock {
+        height: 200px;
+        width: 100%;
+        max-width: calc(100% - 16px);
+    }
+    .contentPage.ratesPage {}
+    .ratesList {}
+    .ratesList .rateItem {}
+    .ratesList .rateItem:nth-child(2n) {}
+    .ratesList .rateItem:nth-child(2n):before,
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem:nth-child(2n):before {}
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem .ratesData+* {
+        margin-top: 10px;
+    }
+    .ratesList .rateItem .ratesData .item {}
+    .ratesList .rateItem .ratesData .item+.item {}
+    .ratesList .rateItem .ratesData .icon {}
+    .ratesList .rateItem .ratesData .title {}
+    .ratesList .rateItem .ratesData .cont {}
+    .ratesList .rateItem .progressBlock .left {
+        width: 100%;
+        max-width: 465px;
+    }
+    .progressBlocks .progressItem+.progressItem {}
+    .progressItem .progressWrapp {}
+    .progressItem>span {}
+    .progressItem>span .data {}
+    .progressItem .progressIn {}
+    .progressItem .progressIn.color1 {}
+    .progressItem .progressIn.color2 {}
+    .progressItem .progressIn.color3 {}
+    .ratesList .rateItem .progressBlock .right {}
+    .returtGraf {
+        height: auto;
+        border-width: 1px;
+    }
+    .returtGraf .grafCell {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .returtGraf .grafCell+.grafCell {
+        border-width: 1px;
+    }
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .returtGraf .grafCell .footTitle {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        margin-top: 400px;
+    }
+    .returtGraf .grafCell .date {
+        font-size: 10px;
+        top: 295px;
+    }
+    .returtGraf .grafCell .grafUp {
+        height: calc(100% - 285px);
+        top: 60px;
+    }
+    .returtGraf .grafCell .grafUp .in {
+        width: calc(100% - 5px);
+        max-height: calc(100% - 5px);
+    }
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {
+        top: -5px;
+        left: -2.5px;
+        height: 5px;
+    }
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {
+        top: -2.5px;
+        left: -5px;
+        height: calc(100% + 0px);
+        width: 5px;
+    }
+    .returtGraf .grafCell .grafDown .in:after {
+        top: 2.5px;
+    }
+    .returtGraf .grafCell .grafDown .in:before {
+        top: 100%;
+    }
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {
+        top: 317px;
+        height: calc(100% - 377px);
+        width: calc(100% - 5px);
+    }
+    .returtGraf .grafCell .grafDown .in {
+        max-height: calc(100% - 5px);
+    }
+    .innerHead {
+        padding-right: 10px;
+    }
+    .innerHead.reviewsHead,
+    .innerHead.faqHead {}
+    .innerHead .mainTitle {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .innerHead .subTitle {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .innerHead .btn {
+        margin-right: -8px;
+    }
+    .textBlock:after,
+    .textBlock:before,
+    .textWrapp:after,
+    .textWrapp:before {}
+    .textBlock .textWrapp+.textWrapp {
+        margin-top: 40px;
+    }
+    .textBlock p {}
+    .textBlock *+ul {
+        margin-top: 15px;
+    }
+    .textBlock ul li {}
+    .textBlock ul li:before {}
+    .textBlock .firstCap {}
+    .textBlock .firstCap+* {
+        margin-top: 20px;
+    }
+    .textBlock .secCap {}
+    .textBlock .secCap+* {
+        margin-top: 15px;
+    }
+    .textBlock img {}
+    .textBlock img.leftImage {
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .textBlock img.rightImage {
+        float: none;
+        margin-left: 8px;
+        margin-bottom: 30px;
+    }
+    .textBlock .videoBlock {}
+    .textBlock .videoBlock .playIcon {}
+    .textBlock .videoBlock .playIcon:hover {}
+    .textBlock .videoBlock.rightVideo {}
+    .tabs .tabHead ul {}
+    .tabs .tabHead ul li {
+        margin: 5px;
+    }
+    .tabs .tabHead ul li+li {
+        margin-left: 10px;
+    }
+    .tabs .tabHead ul li a {}
+    .tabs .tabHead ul li a:hover {}
+    .tabs .tabHead ul li.ui-state-active a,
+    .tabs .tabHead ul li.ui-state-active a:hover {}
+    .tabs .tabCont {}
+    .tabs .tabCont a {
+        margin-top: 40px;
+    }
+    .contentPage.faqPage {}
+    .contentPage.faqPage .tabHead ul {}
+    .contentPage.faqPage .tabCont {}
+    .faqItem .slideTitle {}
+    .faqItem .slideTitle:hover,
+    .faqItem .slideTitle.active {}
+    .faqItem .slideTitle>* {}
+    .faqItem .slideTitle:before {}
+    .faqItem .slideTitle:hover {}
+    .faqItem .slideTitle :not(.plusMinus) {}
+    .faqItem .slideTitle .plusMinus {}
+    .faqItem .slideTitle .plusMinus>* {}
+    .faqItem .slideTitle .plusMinus span:first-child {}
+    .faqItem .slideTitle .plusMinus span:last-child {}
+    .faqItem .slideTitle.active .plusMinus span:last-child {}
+    .faqItem .slideContent {}
+    .faqItem+.faqItem {}
+    .faqBlock .titBlock {
+        padding-left: 55px;
+        background-size: auto 40px;
+    }
+    .faqBlock .titBlock .tit {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .faqBlock .titBlock+.content {
+        margin-top: 35px;
+    }
+    .contentPage.contactsPage {}
+    .contactsMain {}
+    .contactsMain .list .item:first-child .tit {}
+    .contactsMain .list .item:nth-child(2) .tit {}
+    .contactsMain .list .item:nth-child(3) .tit {}
+    .contactsMain .list .item:last-child .tit {}
+    .contactsMain .list .linkBlock .link.phone {}
+    .contactsMain .list .linkBlock+.linkBlock {}
+    .contactsMain .list .linkBlock .link.mail {}
+    .contactsMain .list .linkBlock .link {}
+    .contactsMain .list .linkBlock .link:hover {}
+    .contactsMain .list .linkBlock .link.telegram {}
+    .contactsMain .list .item .in {}
+    .contactsPage .backBlue.base {
+        padding-bottom: 50px;
+    }
+    .contactsPage .backBlue.base:after {}
+    .contactsPage .backBlue.base .backBlock {}
+    .contactsPage .inputBlock label+.wrapInput {}
+    .contactsPage .writeUs .cfix {
+        margin: 0px;
+    }
+    .contactsPage .writeUs .cfix>.item {
+        width: 50%;
+    }
+    .contactsPage .writeUs .cfix>.item.col12 {
+        max-width: 100%
+    }
+    .contactsPage .writeUs .message {}
+    .contactsPage .writeUs .writeForm {
+        margin-top: 20px;
+    }
+    .legendForm {}
+    .legendForm .star {}
+    .contactsPage .writeUs .btn {}
+    .contactsPage .map {
+        height: 400px;
+    }
+    .contactsPage+footer {
+        margin-top: 0px;
+    }
+    .contactsPage+footer:before {}
+    .contentPage.aboutPage {
+        padding-top: 70px;
+    }
+    .aboutPage>.textBlock {
+        padding-bottom: 50px;
+    }
+    .aboutPage .plusesGrid {}
+    .aboutPage .plusesGrid.grid:after {}
+    .aboutPage .plusItem {
+        width: 50%;
+        padding-left: 90px;
+    }
+    .aboutPage .plusItem:nth-child(3n + 1){
+        clear: none;
+    }
+    .aboutPage .plusItem:nth-child(2n + 1){
+    clear: both;
+}
+    .aboutPage .plusItem .icon {background-size: auto;width: 68px;}
+    .aboutPage .plusItem .plTitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .aboutPage .plusItem p {}
+    .aboutPage .grafBlock {}
+    .aboutPage .grafBlock *+.grafEls {}
+    .aboutPage .grafEls .item {}
+    .aboutPage .grafEls .item [class*='color'] {}
+    .aboutPage .grafEls .item+.item {}
+    .aboutPage .grafBlock .left {
+        width: 100%;
+    }
+    .aboutPage .grafBlock .right {width: 100%;margin-top: 30px;padding-left: 0px;}
+}
+
+@media (max-width: 767px) {
+    * {}
+    body {}
+    p {}
+    ul,
+    ol {}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {}
+    a,
+    button {}
+    a:before,
+    a:after,
+    button:before,
+    button:after {}
+    :before,
+    :after {}
+    button,
+    input,
+    textarea {}
+    button {}
+    .invisLink {}
+    .invisLink a {}
+    .cfix:after {}
+    .left {}
+    .right {}
+    .table {}
+    .tableCell {}
+    .cfix.margO {}
+    .cfix.margO>.item {
+        width: 100%;
+    }
+    .cfix>.item {}
+    .col12 {}
+    .col6 {}
+    .col4 {}
+    .container {}
+    .logo {}
+    .logo:hover {}
+    .siteHeader {}
+    .siteHeader .lineTop {
+        padding-top: 85px;
+    }
+    .siteHeader.innerHeader {
+        min-height: 300px;
+    }
+    .mainHeader {
+        min-height: 415px;
+    }
+    .siteHeader .logo {
+        width: 140px;
+    }
+    .siteHeader .logo img {}
+    .siteHeader .headContacts {}
+    .siteFooter .social [class*="icon"],
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts [class*="icon"] {}
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts .mail [class*="icon"],
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .mail,
+    .siteHeader .headContacts .mail {}
+    .siteFooter .mail:hover,
+    .siteHeader .headContacts .mail:hover {}
+    .siteHeader .headContacts .socialBlock,
+    .siteHeader .headContacts .langSite {
+        top: 20px;
+    }
+    .menuBtn {
+        right: 10px;
+        top: 93px
+    }
+    .siteHeader .headContacts .socialBlock {}
+    .siteFooter .telegram a,
+    .siteHeader .headContacts .telegram a {
+    font-size: 13px;
+}
+    .siteFooter .telegram a:hover,
+    .siteHeader .headContacts .telegram a:hover {}
+    .siteHeader .headContacts .social {
+        top: 20px;
+    }
+    .siteFooter .social a,
+    .siteHeader .headContacts .social a {}
+    .siteFooter .social a:hover,
+    .siteHeader .headContacts .social a:hover {}
+    .siteFooter .social li,
+    .siteHeader .headContacts .social li {}
+    .siteFooter .social li+li,
+    .siteHeader .headContacts .social li+li {}
+    .siteHeader .headContacts .telegram {
+    top: 53px;
+    left: 10px;
+}
+    .siteHeader .headContacts .telegram li {}
+    .siteHeader .headContacts .telegram li+li {}
+    .siteHeader .headContacts .langSite a {}
+    .siteHeader .headContacts .langSite a:hover {}
+    .siteHeader .headContacts .langSite a.active {}
+    .siteHeader .headContacts .langSite li {}
+    .siteHeader .headContacts .langSite li+li {}
+    .siteHeader .siteMenu {
+        top: 145px;
+    }
+    .siteHeader .siteMenu .linkMenu {}
+    .siteHeader .siteMenu .linkMenu:hover {}
+    .siteHeader .siteMenu .linkMenu:before {}
+    .siteHeader .menu li+li {}
+    .siteHeader .siteMenu .linkMenu.active:before {}
+    .siteHeader .siteMenu li {}
+    .siteHeader .toCabinet,
+    .siteHeader .menu {}
+    .siteHeader .toCabinet {}
+    .siteHeader .toCabinet li+li {}
+    .siteHeader .toCabinet .cabMove {}
+    .siteHeader .toCabinet .cabMove:hover {}
+    .siteHeader .toCabinet .loginCab {}
+    .siteHeader .toCabinet .regCab {}
+    .textGretting {}
+    .textGretting .btn.btnTran {}
+    .textGretting .cap {
+        display: none;
+    }
+    .textGretting .desr {
+        display: none;
+    }
+    .textGretting .text {}
+    .textGretting .btnTran {}
+    .infoGrettingMain {
+        padding-top: 15px;
+        padding-left: 0px;
+        float: right;
+        transform: scale(1);
+        width: 100%;
+        text-align: right;
+        max-width: 100%;
+    }
+    .infoGrettingMain:before {}
+    .infoGrettingMain:after {}
+    .infoGrettingMain .circleLogo {
+        display: block;
+        padding-right: 10px;
+    }
+    .infoGrettingMain .circleLogo:before {}
+    .infoGrettingMain .circleLogo:after {}
+    .infoGrettingMain [class*="icon"] {
+        background-size: 38px;
+    }
+    .infoGrettingMain .val {
+        right: 50px;
+    }
+    .infoGrettingMain .desr {}
+    .infoGrettingMain .item {
+        padding-right: 50px;
+    }
+    .infoGrettingMain .item:first-child {}
+    .infoGrettingMain .item+.item {
+        margin-top: 5px;
+    }
+    .infoGrettingMain .item:nth-child(2) {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:before {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:last-child:before {}
+    .btn.btnTran {}
+    .btn.btnTran:hover {}
+    .btn.btnTran:before {
+        background-size: 75%;
+    }
+    .grayBlPixel {}
+    .aboutMain {
+        padding-top: 145px;
+    }
+    .contactsMain .list .cfix,
+    .aboutMain .list .cfix {
+        margin: 0px;
+    }
+    .contactsMain .list,
+    .aboutMain .list {}
+    .contactsMain .list:before,
+    .aboutMain .list:before {}
+    .contactsMain .list .item,
+    .aboutMain .list .item {
+        width: 100%;
+        padding: 10px 0px 0px;
+    }
+    .contactsMain .list .item .in,
+    .aboutMain .list .item .in {
+        min-height: auto !important;
+        padding-bottom: 40px;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .contactsMain .list .item .in:before,
+    .aboutMain .list .item .in:before {}
+    .contactsMain .list [class*='icon'],
+    .aboutMain .list [class*='icon'] {}
+    .contactsMain .list .tit,
+    .aboutMain .list .tit {}
+    .contactsMain .list .txt,
+    .aboutMain .list .txt {}
+    .aboutMain .list .txt.note {}
+    .aboutMain .textBl {}
+    .aboutMain .textBl b+* {}
+    .aboutMain .textBl .tit {
+        line-height: 42px;
+    }
+    .aboutMain .textBl .btnLIne {
+        width: 100%;
+        left: 0px;
+        margin-left: 0px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        text-align: center;
+    }
+    .aboutMain .textBl .btn {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    .btn.btnFull {}
+    .btn.btnFull:hover {}
+    .whiteTxt {}
+    .blueTxt {}
+    .txtBlock {}
+    .txtBlock+.txtBlock {}
+    .titBlock.centerTitle {}
+    .titBlock .tit {}
+    .titBlock .pre {
+        line-height: 36px;
+    }
+    .backBlue {}
+    .backBlue.base {}
+    .backBlue.base:before,
+    .backBlue.base:after {}
+    .backBlue.base:before {}
+    .backBlue.base:after {}
+    .returnCash {
+        padding-bottom: 140px;
+        z-index: 1;
+    }
+    .returnCash .titBlock {}
+    .aboutCompany {}
+    .aboutCompany>.container>.cfix {}
+    .aboutCompany>.container>.cfix>.item {
+        width: 100%;
+    }
+    .aboutCompany>.container>.cfix>.item:first-child {}
+    .aboutCompany .content {}
+    .aboutCompany .nameBlock {}
+    .aboutCompany .nameBlock .name {}
+    .aboutCompany .nameBlock .address {}
+    .aboutCompany .nameBlock .address br {
+        display: none;
+    }
+    .aboutCompany .licensyBlock {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .aboutCompany .licensyBlock .licensy {}
+    .aboutCompany .licensyBlock:before {}
+    .aboutCompany .licensyBlock .licensyImage {}
+    .aboutCompany .licensyBlock .numLicensy {}
+    .aboutCompany .licensyBlock .btnFull {}
+    .successSteps {
+        padding-bottom: 65px;
+    }
+    .successSteps:after,
+    .backBlue.base .backBlock,
+    .returnCash.backBlue .backBlock {
+        background-size: 480px auto;
+        background-position: center 140px;
+    }
+    .returnCash.backBlue:after {}
+    .returnCash.backBlue .backBlock {
+        background-position: center 360px;
+    }
+    .successSteps .circleStep {}
+    .successSteps .circleStep:before {}
+    .successSteps .circleStep .in {}
+    .successSteps .circleStep .in .tit {}
+    .successSteps .circleStep .in .txt {}
+    .successSteps .steps .tit {}
+    .successSteps .steps .txt {}
+    .successSteps .steps .step {
+        float: none !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .successSteps .steps .step+.step {}
+    .successSteps .steps .item {
+        width: 100%;
+        float: left !important;
+    }
+    .successSteps .steps .item+.item {
+        margin-top: 95px;
+    }
+    .successSteps .steps .item:last-child {}
+    .successSteps .steps .item:first-child .step {}
+    .successSteps .steps .item:last-child .step {
+        float: left;
+    }
+    .successSteps .stepsBlock {}
+    .successSteps .steps {}
+    .successSteps .steps .num {
+        top: -20px !important;
+    }
+    .successSteps .steps .step:first-child .num {}
+    .successSteps .steps .num:before {}
+    .successSteps .steps .item:first-child .step:first-child .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .step:first-child .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .num {}
+    .successSteps .steps .item:first-child .step:first-child .num,
+    .successSteps .steps .item:first-child .step:first-child .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num,
+    .successSteps .steps .item:first-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num,
+    .successSteps .steps .item:first-child .step:nth-child(3) .tit {}
+    .successSteps .steps .item:last-child .step:first-child .num,
+    .successSteps .steps .item:last-child .step:first-child .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num,
+    .successSteps .steps .item:last-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num,
+    .successSteps .steps .item:last-child .step:nth-child(3) .tit {}
+    .reviewsMain .content {
+        margin-top: 30px;
+    }
+    .carouselRev .center .review {
+        padding-bottom: 90px;
+    }
+    .carouselRev .center .name {
+        margin-top: 30px;
+    }
+    .payInOut {}
+    .payInOut .titBlock .tit {}
+    .payInOut .item:first-child .titBlock {
+        background-size: 65px;
+        padding-left: 80px;
+    }
+    .payInOut .item:last-child .titBlock {
+        margin-top: 50px;
+        background-size: 65px;
+        padding-left: 80px;
+        padding-right: 0px;
+        text-align: left;
+        background-position: left center;
+    }
+    .payInOut .card {}
+    .payInOut .content>.cfix.margO {}
+    .payInOut .content {
+        margin-top: 30px;
+    }
+    .payInOut .content>.cfix.margO>.item {}
+    .payInOut .card .icon {}
+    .payInOut .card .name {}
+    .payInOut .card .sum {}
+    .payInOut .card .sum .cur {}
+    .payInOut .container>.cfix.margO>.item:last-child .sum {}
+    .payInOut .payTake {
+        max-width: 100%;
+    }
+    .payInOut .payTake:before {}
+    .payInOut .payTake:after {}
+    .payInOut .payTake .tit {}
+    .payInOut .payTake .cardPay {}
+    .reviewsMain {}
+    .reviewsMain::before {
+        top: 125px;
+    }
+    .reviewsMain .titBlock {}
+    .siteFooter {}
+    .siteFooter .leftFooter,
+    .siteFooter .rightFooter {
+        display: block;
+        margin: 0px auto;
+        width: 260px;
+        padding: 0px;
+        padding-left: 40px;
+    }
+    .siteFooter .centerFooter {
+        top: 40px;
+        height: calc(100% - 40px);
+        z-index: -1;
+    }
+    .siteFooter .leftFooter {
+        margin-top: 50px;
+    }
+    .siteFooter .rightFooter {
+        padding-left: 0px;
+    }
+    .siteFooter .tradeMark {}
+    .siteFooter .logo {}
+    .siteFooter .logo img {
+        width: 180px;
+    }
+    .siteFooter .logo .txtLogo {
+        font-size: 31px;
+    }
+    .siteFooter .fond {
+        line-height: 34px;
+        margin-top: 20px;
+    }
+    .siteFooter .social {
+        margin-top: 35px;
+    }
+    .siteFooter .social [class*="icon"] {}
+    .siteFooter .social li+li {}
+    .siteFooter .tradeMark [class*="icon"] {}
+    .siteFooter .address {}
+    .siteFooter .telegram li+li,
+    .siteFooter .mail {}
+    .siteFooter .copyRight {
+        bottom: 40px;
+    }
+    .siteFooter .menuList {}
+    .siteFooter .downFooter {}
+    .siteFooter .menuList .linkMenu {}
+    .siteFooter .menuList .linkMenu:hover {}
+    .siteFooter .menuList li {}
+    .siteFooter .menuList li+li {}
+    .inputBlock {}
+    .inputBlock label {}
+    .inputBlock label .star {}
+    .inputBlock label+.wrapInput {}
+    .wrapInput {}
+    .wrapInput input {}
+    .wrapInput textarea {}
+    .preRulesBlock {
+        padding-top: 40px;
+    }
+    .preRules {
+        max-width: 500px;
+    }
+    .rule .ruleTitle {}
+    .rule .ruleList {}
+    .rule .ruleList .num {}
+    .rule .ruleList .txt+.txt {}
+    .rule .ruleList .item+.item {}
+    .rule+.rule {}
+    .rulesBlock {
+        padding: 40px 0px;
+    }
+    .rulesBlock:after,
+    .rulesBlock:before {}
+    .rulesBlock:before {}
+    .rulesBlock:after {}
+    .contentPage.reviewsPage {}
+    .reviewsBlock {
+        padding-top: 20px
+    }
+    .tabs .tabHead {
+        padding: 0px 0px !important;
+    }
+    .tabs .tabCont {
+        padding: 20px 0px 0px !important;
+    }
+    .revItem {
+        width: 100%;
+    }
+    .tabs .tabCont .revWall .revItem+.revItem {
+        margin-top: 16px
+    }
+    .revItem .revHead {}
+    .revItem .revHead .icon {}
+    .revItem .revHead .icon[style*='image'] {}
+    .revItem .revHead .name {}
+    .revItem .revHead .date {}
+    .revItem .revCont {}
+    .revItem .revCont .videoBlock {}
+    .contentPage.ratesPage {}
+    .ratesList {}
+    .ratesList .rateItem {}
+    .ratesList .rateItem:nth-child(2n) {}
+    .ratesList .rateItem:nth-child(2n):before,
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem:nth-child(2n):before {}
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem .ratesData+* {}
+    .ratesList .rateItem .ratesData .item {}
+    .ratesList .rateItem .ratesData .item+.item {
+        display: block;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .ratesList .rateItem .ratesData .icon {}
+    .ratesList .rateItem .ratesData .title {}
+    .ratesList .rateItem .ratesData .cont {}
+    .ratesList .rateItem .progressBlock .left {}
+    .progressBlocks .progressItem+.progressItem {}
+    .progressItem .progressWrapp {}
+    .progressItem>span {}
+    .progressItem>span .data {}
+    .progressItem .progressIn {}
+    .progressItem .progressIn.color1 {}
+    .progressItem .progressIn.color2 {}
+    .progressItem .progressIn.color3 {}
+    .ratesList .rateItem .progressBlock .right {}
+    .returtGraf {
+        width: 752px;
+        position: absolute;
+        left: 50%;
+        margin-left: calc(-752px / 2);
+        transform: scale(0.6);
+        bottom: -50px;
+        border-width: 2px;
+    }
+    .returtGraf .grafCell {}
+    .returtGraf .grafCell+.grafCell {
+        border-width: 2px;
+    }
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {}
+    .returtGraf .grafCell .footTitle {}
+    .returtGraf .grafCell .date {}
+    .returtGraf .grafCell .grafUp {}
+    .returtGraf .grafCell .grafUp .in {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {}
+    .returtGraf .grafCell .grafDown .in {}
+    .innerHead {
+        margin-top: 30px;
+    }
+    .innerHead.reviewsHead,
+    .innerHead.faqHead {}
+    .innerHead .mainTitle {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .innerHead .subTitle {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .innerHead .btn {
+        margin: 10px auto 0px;
+        display: table;
+        float: none;
+        font-size: 16px;
+    }
+    .textBlock:after,
+    .textBlock:before,
+    .textWrapp:after,
+    .textWrapp:before {}
+    .textBlock .textWrapp+.textWrapp {}
+    .textBlock p {}
+    .textBlock *+ul {}
+    .textBlock ul li {}
+    .textBlock ul li:before {}
+    .textBlock .firstCap {}
+    .textBlock .firstCap+* {}
+    .textBlock .secCap {}
+    .textBlock .secCap+* {}
+    .textBlock img {
+        max-height: 300px;
+        max-width: calc(100% - 16px);
+    }
+    .textBlock img.leftImage {}
+    .textBlock img.rightImage {}
+    .textBlock .videoBlock {}
+    .textBlock .videoBlock .playIcon {}
+    .textBlock .videoBlock .playIcon:hover {}
+    .textBlock .videoBlock.rightVideo {float: none;margin-left: 8px;margin-bottom: 20px;width: calc(100% - 16px);max-width: 400px;}
+    .tabs .tabHead ul {}
+    .tabs .tabHead ul li {}
+    .tabs .tabHead ul li+li {
+        margin-left: 5px;
+    }
+    .tabs .tabHead ul li a {
+        min-width: auto;
+        line-height: 44px;
+        font-size: 16px;
+        padding: 0px 10px;
+    }
+    .tabs .tabHead ul li a:hover {}
+    .tabs .tabHead ul li.ui-state-active a,
+    .tabs .tabHead ul li.ui-state-active a:hover {}
+    .tabs .tabCont {}
+    .tabs .tabCont a {}
+    .contentPage.faqPage {
+        padding-bottom: 80px;
+        padding-top: 20px;
+    }
+    .contentPage.faqPage .tabHead ul {}
+    .contentPage.faqPage .tabCont {}
+    .faqItem .slideTitle {}
+    .faqItem .slideTitle:hover,
+    .faqItem .slideTitle.active {}
+    .faqItem .slideTitle>* {}
+    .faqItem .slideTitle:before {}
+    .faqItem .slideTitle:hover {}
+    .faqItem .slideTitle :not(.plusMinus) {}
+    .faqItem .slideTitle .plusMinus {}
+    .faqItem .slideTitle .plusMinus>* {}
+    .faqItem .slideTitle .plusMinus span:first-child {}
+    .faqItem .slideTitle .plusMinus span:last-child {}
+    .faqItem .slideTitle.active .plusMinus span:last-child {}
+    .faqItem .slideContent {}
+    .faqItem+.faqItem {
+        margin-top: 10px;
+    }
+    .faqBlock .titBlock {}
+    .faqBlock .titBlock .tit {}
+    .faqBlock .titBlock+.content {
+        margin-top: 15px;
+    }
+    .contentPage.contactsPage {}
+    .contactsMain {
+        padding-top: 110px;
+    }
+    .contactsMain .list .item:first-child .tit {}
+    .contactsMain .list .item:nth-child(2) .tit {}
+    .contactsMain .list .item:nth-child(3) .tit {}
+    .contactsMain .list .item:last-child .tit {}
+    .contactsMain .list .linkBlock .link.phone {}
+    .contactsMain .list .linkBlock+.linkBlock {}
+    .contactsMain .list .linkBlock .link.mail {}
+    .contactsMain .list .linkBlock .link {}
+    .contactsMain .list .linkBlock .link:hover {}
+    .contactsMain .list .linkBlock .link.telegram {}
+    .contactsMain .list .item .in {}
+    .contactsPage .backBlue.base {}
+    .contactsPage .backBlue.base:after {}
+    .contactsPage .backBlue.base .backBlock {}
+    .contactsPage .inputBlock label+.wrapInput {}
+    .contactsPage .writeUs .cfix {}
+    .contactsPage .writeUs .cfix>.item {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .contactsPage .writeUs .message {}
+    .contactsPage .writeUs .writeForm {}
+    .legendForm {}
+    .legendForm .star {}
+    .contactsPage .writeUs .btn {}
+    .contactsPage .map {
+        height: 300px;
+    }
+    .contactsPage+footer {}
+    .contactsPage+footer:before {}
+    .contentPage.aboutPage {
+        padding-top: 40px;
+    }
+    .aboutPage>.textBlock {}
+    .aboutPage .plusesGrid {}
+    .aboutPage .plusesGrid.grid:after {}
+    .aboutPage .plusItem {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+    .aboutPage .plusItem .icon {}
+    .aboutPage .plusItem .plTitle {}
+    .aboutPage .plusItem p {}
+    .aboutPage .grafBlock {}
+    .aboutPage .grafBlock *+.grafEls {}
+    .aboutPage .grafEls .item {}
+    .aboutPage .grafEls .item [class*='color'] {}
+    .aboutPage .grafEls .item+.item {}
+    .aboutPage .grafBlock .left {}
+    .aboutPage .grafBlock .right {}
+}
+
+@media (max-width: 479px) {
+    * {}
+    body {}
+    p {}
+    ul,
+    ol {}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {}
+    a,
+    button {}
+    a:before,
+    a:after,
+    button:before,
+    button:after {}
+    :before,
+    :after {}
+    button,
+    input,
+    textarea {}
+    button {}
+    .invisLink {}
+    .invisLink a {}
+    .cfix:after {}
+    .left {}
+    .right {}
+    .table {}
+    .tableCell {}
+    .cfix.margO {}
+    .cfix.margO>.item {}
+    .cfix>.item {}
+    .col12 {}
+    .col6 {}
+    .col4 {}
+    .container {}
+    .logo {}
+    .logo:hover {}
+    .siteHeader {
+        background-image: url(../img/back-header-main-xm.png) !important;
+    }
+    .svgGraf{
+        display: none;
+    }
+    .siteHeader .lineTop {}
+    .siteHeader.innerHeader {}
+    .mainHeader {}
+    .siteHeader .logo {}
+    .siteHeader .logo img {}
+    .siteHeader .headContacts {}
+    .siteFooter .social [class*="icon"],
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts [class*="icon"] {}
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .rightFooter [class*="icon"],
+    .siteHeader .headContacts .mail [class*="icon"],
+    .siteHeader .headContacts .telegram [class*="icon"] {}
+    .siteFooter .mail,
+    .siteHeader .headContacts .mail {}
+    .siteFooter .mail:hover,
+    .siteHeader .headContacts .mail:hover {}
+    .siteHeader .headContacts .socialBlock,
+    .siteHeader .headContacts .langSite {}
+    .siteHeader .headContacts .socialBlock {}
+    .siteFooter .telegram a,
+    .siteHeader .headContacts .telegram a {}
+    .siteFooter .telegram a:hover,
+    .siteHeader .headContacts .telegram a:hover {}
+    .siteHeader .headContacts .social {}
+    .siteFooter .social a,
+    .siteHeader .headContacts .social a {}
+    .siteFooter .social a:hover,
+    .siteHeader .headContacts .social a:hover {}
+    .siteFooter .social li,
+    .siteHeader .headContacts .social li {}
+    .siteFooter .social li+li,
+    .siteHeader .headContacts .social li+li {}
+    .siteHeader .headContacts .telegram {}
+    .siteHeader .headContacts .telegram li {}
+    .siteHeader .headContacts .telegram li+li {
+    margin-left: 17px;
+}
+    .siteHeader .headContacts .langSite a {}
+    .siteHeader .headContacts .langSite a:hover {}
+    .siteHeader .headContacts .langSite a.active {}
+    .siteHeader .headContacts .langSite li {}
+    .siteHeader .headContacts .langSite li+li {}
+    .siteHeader .siteMenu {}
+    .siteHeader .siteMenu .linkMenu {}
+    .siteHeader .siteMenu .linkMenu:hover {}
+    .siteHeader .siteMenu .linkMenu:before {}
+    .siteHeader .menu li+li {}
+    .siteHeader .siteMenu .linkMenu.active:before {}
+    .siteHeader .siteMenu li {}
+    .siteHeader .toCabinet,
+    .siteHeader .menu {}
+    .siteHeader .toCabinet {}
+    .siteHeader .toCabinet li+li {}
+    .siteHeader .toCabinet .cabMove {}
+    .siteHeader .toCabinet .cabMove:hover {}
+    .siteHeader .toCabinet .loginCab {}
+    .siteHeader .toCabinet .regCab {}
+    .textGretting {}
+    .textGretting .btn.btnTran {}
+    .textGretting .cap {}
+    .textGretting .desr {}
+    .textGretting .text {}
+    .textGretting .btnTran {}
+    .infoGrettingMain {}
+    .infoGrettingMain:before {}
+    .infoGrettingMain:after {}
+    .infoGrettingMain .circleLogo {}
+    .infoGrettingMain .circleLogo:before {}
+    .infoGrettingMain .circleLogo:after {}
+    .infoGrettingMain [class*="icon"] {}
+    .infoGrettingMain .val {}
+    .infoGrettingMain .desr {}
+    .infoGrettingMain .item {}
+    .infoGrettingMain .item:first-child {}
+    .infoGrettingMain .item:nth-child(2) {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:before {}
+    .infoGrettingMain .item:last-child {}
+    .infoGrettingMain .item:last-child:before {}
+    .btn.btnTran {}
+    .btn.btnTran:hover {}
+    .btn.btnTran:before {}
+    .grayBlPixel {}
+    .aboutMain {}
+    .contactsMain .list .cfix,
+    .aboutMain .list .cfix {}
+    .contactsMain .list,
+    .aboutMain .list {}
+    .contactsMain .list:before,
+    .aboutMain .list:before {}
+    .contactsMain .list .item,
+    .aboutMain .list .item {}
+    .contactsMain .list .item .in,
+    .aboutMain .list .item .in {}
+    .contactsMain .list .item .in:before,
+    .aboutMain .list .item .in:before {}
+    .contactsMain .list [class*='icon'],
+    .aboutMain .list [class*='icon'] {}
+    .contactsMain .list .tit,
+    .aboutMain .list .tit {}
+    .contactsMain .list .txt,
+    .aboutMain .list .txt {}
+    .aboutMain .list .txt.note {}
+    .aboutMain .textBl {}
+    .aboutMain .textBl b+* {}
+    .aboutMain .textBl .tit {
+    font-size: 0.8em;
+    line-height: 1.2;
+}
+    .aboutMain .textBl .btnLIne {}
+    .aboutMain .textBl .btn {
+    padding: 0px 5px;
+    width: auto;
+}
+    .btn.btnFull {}
+    .btn.btnFull:hover {}
+    .whiteTxt {}
+    .blueTxt {}
+    .txtBlock {}
+    .txtBlock+.txtBlock {}
+    .titBlock.centerTitle {}
+    .titBlock .tit {
+    font-size: 1em;
+}
+    .titBlock .pre {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.txtCalcNew{
+   font-size: 0.7em; 
+}
+.devR{
+   font-size: 0.7em;
+   padding-bottom: 10px;
+   color:#47967a;
+   font-weight: 700;
+
+}
+
+    .backBlue {}
+    .backBlue.base {}
+    .backBlue.base:before,
+    .backBlue.base:after {}
+    .backBlue.base:before {}
+    .backBlue.base:after {}
+    .returnCash {}
+    .returnCash .titBlock {}
+    .aboutCompany {}
+    .aboutCompany>.container>.cfix {}
+    .aboutCompany>.container>.cfix>.item {}
+    .aboutCompany>.container>.cfix>.item:first-child {}
+    .aboutCompany .content {}
+    .aboutCompany .nameBlock {}
+    .aboutCompany .nameBlock .name {}
+    .aboutCompany .nameBlock .address {}
+    .aboutCompany .licensyBlock {}
+    .aboutCompany .licensyBlock .licensy {
+    width: 100%;
+}
+    .aboutCompany .licensyBlock:before {}
+    .aboutCompany .licensyBlock .licensyImage {}
+    .aboutCompany .licensyBlock .numLicensy {}
+    .aboutCompany .licensyBlock .btnFull {
+    font-size: 0.7em;
+}
+    .successSteps {}
+    .successSteps:after,
+    .backBlue.base .backBlock,
+    .returnCash.backBlue .backBlock {}
+    .returnCash.backBlue:after {}
+    .returnCash.backBlue .backBlock {}
+    .successSteps .circleStep {}
+    .successSteps .circleStep:before {}
+    .successSteps .circleStep .in {}
+    .successSteps .circleStep .in .tit {}
+    .successSteps .circleStep .in .txt {}
+    .successSteps .steps .tit {
+    font-size: 1em;
+}
+    .successSteps .steps .txt {}
+    .successSteps .steps .step {
+}
+    .successSteps .steps .step+.step {}
+    .successSteps .steps .item {}
+    .successSteps .steps .item:last-child {}
+    .successSteps .steps .item:first-child .step {}
+    .successSteps .steps .item:last-child .step {}
+    .successSteps .stepsBlock {}
+    .successSteps .steps {}
+    .successSteps .steps .num {}
+    .successSteps .steps .step:first-child .num {}
+    .successSteps .steps .num:before {}
+    .successSteps .steps .item:first-child .step:first-child .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .step:first-child .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num:before {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num:before {}
+    .successSteps .steps .item:last-child .num {}
+    .successSteps .steps .item:first-child .step:first-child .num,
+    .successSteps .steps .item:first-child .step:first-child .tit {}
+    .successSteps .steps .item:first-child .step:nth-child(2) .num,
+    .successSteps .steps .item:first-child .step:nth-child(2) .tit {
+}
+
+    .successSteps .steps .item .step .num{display:none;}
+    .successSteps .steps .item .step{padding-left: 0px !important;}
+    .successSteps .steps .item:first-child .step:nth-child(3) .num,
+    .successSteps .steps .item:first-child .step:nth-child(3) .tit {
+}
+    .successSteps .steps .item:last-child .step:first-child .num,
+    .successSteps .steps .item:last-child .step:first-child .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(2) .num,
+    .successSteps .steps .item:last-child .step:nth-child(2) .tit {}
+    .successSteps .steps .item:last-child .step:nth-child(3) .num,
+    .successSteps .steps .item:last-child .step:nth-child(3) .tit {}
+    .payInOut {}
+    .payInOut .titBlock .tit {}
+    .payInOut .item:first-child .titBlock {}
+    .payInOut .item:last-child .titBlock {}
+    .payInOut .card {}
+    .payInOut .content>.cfix.margO {}
+    .payInOut .content {}
+    .payInOut .content>.cfix.margO>.item {
+        width: 100%;
+    }
+    .payInOut .card .icon {}
+    .payInOut .card .name {}
+    .payInOut .card .sum {}
+    .payInOut .card .sum .cur {}
+    .payInOut .container>.cfix.margO>.item:last-child .sum {}
+    .payInOut .payTake {}
+    .payInOut .payTake:before {}
+    .payInOut .payTake:after {}
+    .payInOut .payTake .tit {}
+    .payInOut .payTake .cardPay {}
+    .reviewsMain {}
+    .reviewsMain .titBlock {}
+    .siteFooter {}
+    .siteFooter .leftFooter,
+    .siteFooter .rightFooter {}
+    .siteFooter .centerFooter {}
+    .siteFooter .leftFooter {
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+    .siteFooter .rightFooter {
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+    .siteFooter .tradeMark {}
+    .siteFooter .logo {}
+    .siteFooter .logo .txtLogo {}
+    .siteFooter .fond {}
+    .siteFooter .social {}
+    .siteFooter .social [class*="icon"] {}
+    .siteFooter .social li+li {}
+    .siteFooter .tradeMark [class*="icon"] {}
+    .siteFooter .address {
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+    .siteFooter .telegram li+li,
+    .siteFooter .mail {}
+    .siteFooter .copyRight {}
+    .siteFooter .menuList {}
+    .siteFooter .downFooter {}
+    .siteFooter .menuList .linkMenu {}
+    .siteFooter .menuList .linkMenu:hover {}
+    .siteFooter .menuList li {}
+    .siteFooter .menuList li+li {}
+    .inputBlock {}
+    .inputBlock label {}
+    .inputBlock label .star {}
+    .inputBlock label+.wrapInput {}
+    .wrapInput {}
+    .wrapInput input {}
+    .wrapInput textarea {}
+    .preRulesBlock {}
+    .preRules {}
+    .rule .ruleTitle {}
+    .rule .ruleList {}
+    .rule .ruleList .num {}
+    .rule .ruleList .txt+.txt {}
+    .rule .ruleList .item+.item {}
+    .rule+.rule {}
+    .rulesBlock {}
+    .rulesBlock:after,
+    .rulesBlock:before {}
+    .rulesBlock:before {}
+    .rulesBlock:after {}
+    .contentPage.reviewsPage {}
+    .revItem {}
+    .revItem .revHead {}
+    .revItem .revHead .icon {}
+    .revItem .revHead .icon[style*='image'] {}
+    .revItem .revHead .name {}
+    .revItem .revHead .date {}
+    .revItem .revCont {}
+    .revItem .revCont .videoBlock {}
+    .contentPage.ratesPage {}
+    .ratesList {}
+    .ratesList .rateItem {
+        padding: 50px 0px !important;
+    }
+    .ratesList .rateItem:nth-child(2n) {}
+    .ratesList .rateItem:nth-child(2n):before,
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem:nth-child(2n):before {}
+    .ratesList .rateItem:nth-child(2n):after {}
+    .ratesList .rateItem .ratesData+* {}
+    .ratesList .rateItem .ratesData .item {}
+    .ratesList .rateItem .ratesData .item+.item {}
+    .ratesList .rateItem .ratesData .icon {}
+    .ratesList .rateItem .ratesData .title {}
+    .ratesList .rateItem .ratesData .cont {}
+    .ratesList .rateItem .progressBlock .left {}
+    .progressBlocks .progressItem+.progressItem {}
+    .progressItem .progressWrapp {}
+    .progressItem>span {}
+    .progressItem>span .data {}
+    .progressItem .progressIn {}
+    .progressItem .progressIn.color1 {}
+    .progressItem .progressIn.color2 {}
+    .progressItem .progressIn.color3 {}
+    .ratesList .rateItem .progressBlock .right {}
+    .returtGraf {}
+    .returtGraf .grafCell {}
+    .returtGraf .grafCell+.grafCell {}
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {}
+    .returtGraf .grafCell .footTitle {}
+    .returtGraf .grafCell .date {}
+    .returtGraf .grafCell .grafUp {}
+    .returtGraf .grafCell .grafUp .in {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafDown .in:before {}
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {}
+    .returtGraf .grafCell .grafDown .in {}
+    .innerHead {}
+    .innerHead.reviewsHead,
+    .innerHead.faqHead {}
+    .innerHead .mainTitle {}
+    .innerHead .subTitle {}
+    .innerHead .btn {}
+    .textBlock:after,
+    .textBlock:before,
+    .textWrapp:after,
+    .textWrapp:before {}
+    .textBlock .textWrapp+.textWrapp {}
+    .textBlock p {}
+    .textBlock *+ul {}
+    .textBlock ul li {}
+    .textBlock ul li:before {}
+    .textBlock .firstCap {}
+    .textBlock .firstCap+* {}
+    .textBlock .secCap {}
+    .textBlock .secCap+* {}
+    .textBlock img {}
+    .textBlock img.leftImage {}
+    .textBlock img.rightImage {}
+    .textBlock .videoBlock {}
+    .textBlock .videoBlock .playIcon {}
+    .textBlock .videoBlock .playIcon:hover {}
+    .textBlock .videoBlock.rightVideo {}
+    .tabs .tabHead ul {}
+    .tabs .tabHead ul li {}
+    .tabs .tabHead ul li+li {}
+    .tabs .tabHead ul li a {}
+    .tabs .tabHead ul li a:hover {}
+    .tabs .tabHead ul li.ui-state-active a,
+    .tabs .tabHead ul li.ui-state-active a:hover {}
+    .tabs .tabCont {}
+    .tabs .tabCont a {}
+    .contentPage.faqPage {}
+    .contentPage.faqPage .tabHead ul {}
+    .contentPage.faqPage .tabCont {}
+    .faqItem .slideTitle {}
+    .faqItem .slideTitle:hover,
+    .faqItem .slideTitle.active {}
+    .faqItem .slideTitle>* {}
+    .faqItem .slideTitle:before {}
+    .faqItem .slideTitle:hover {}
+    .faqItem .slideTitle :not(.plusMinus) {}
+    .faqItem .slideTitle .plusMinus {}
+    .faqItem .slideTitle .plusMinus>* {}
+    .faqItem .slideTitle .plusMinus span:first-child {}
+    .faqItem .slideTitle .plusMinus span:last-child {}
+    .faqItem .slideTitle.active .plusMinus span:last-child {}
+    .faqItem .slideContent {}
+    .faqItem+.faqItem {}
+    .faqBlock .titBlock {}
+    .faqBlock .titBlock .tit {}
+    .faqBlock .titBlock+.content {}
+    .contentPage.contactsPage {}
+    .contactsMain {}
+    .contactsMain .list .item:first-child .tit {}
+    .contactsMain .list .item:nth-child(2) .tit {}
+    .contactsMain .list .item:nth-child(3) .tit {}
+    .contactsMain .list .item:last-child .tit {}
+    .contactsMain .list .linkBlock .link.phone {}
+    .contactsMain .list .linkBlock+.linkBlock {}
+    .contactsMain .list .linkBlock .link.mail {}
+    .contactsMain .list .linkBlock .link {}
+    .contactsMain .list .linkBlock .link:hover {}
+    .contactsMain .list .linkBlock .link.telegram {}
+    .contactsMain .list .item .in {}
+    .contactsPage .backBlue.base {}
+    .contactsPage .backBlue.base:after {}
+    .contactsPage .backBlue.base .backBlock {}
+    .contactsPage .inputBlock label+.wrapInput {}
+    .contactsPage .writeUs .cfix {}
+    .contactsPage .writeUs .cfix>.item {}
+    .contactsPage .writeUs .message {}
+    .contactsPage .writeUs .writeForm {}
+    .legendForm {}
+    .legendForm .star {}
+    .contactsPage .writeUs .btn {}
+    .contactsPage .map {}
+    .contactsPage+footer {}
+    .contactsPage+footer:before {}
+    .contentPage.aboutPage {}
+    .aboutPage>.textBlock {}
+    .aboutPage .plusesGrid {}
+    .aboutPage .plusesGrid.grid:after {}
+    .aboutPage .plusItem {}
+    .aboutPage .plusItem .icon {}
+    .aboutPage .plusItem .plTitle {}
+    .aboutPage .plusItem p {}
+    .aboutPage .grafBlock {}
+    .aboutPage .grafBlock *+.grafEls {}
+    .aboutPage .grafEls .item {}
+    .aboutPage .grafEls .item [class*='color'] {}
+    .aboutPage .grafEls .item+.item {}
+    .aboutPage .grafBlock .left {}
+    .aboutPage .grafBlock .right {}
+    .returtGraf {
+        transform: scale(0.4);
+        bottom: -100px;
+    }
+    .returnCash{
+        padding-bottom: 117px;
+    }
+}
+
+
+@media (max-width: 1919px) {
+    .lk header .headTop .langSite {
+        margin-top: -27px;
+    }
+    .lk header .headTop .socialBlock {
+        float: none;
+        width: calc(100% - 100px);
+        padding-right: 38px;
+    }
+    .lk header .logo {
+        width: 268px;
+        margin: 49px auto 0;
+    }
+    .lk .headTop {
+        width: auto;
+        padding: 15px 40px 20px 71px;
+        width: calc(100% - 316px);
+    }
+    .lk header .headTop .telegram {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .lk header .headTop .langSite {
+        float: right;
+    }
+    .lk .leftMenu {
+        padding-left: 12px;
+        margin-top: 44px;
+        padding-right: 21px;
+    }
+    .lk .leftMenu .linkCabMenu {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 21px 10px 21px 100px;
+    }
+    .lk .leftMenu .linkCabMenu [class*="icon"] {
+        left: 14px;
+        line-height: 64px;
+    }
+    .lk .leftMenu .linkCabMenu:before {
+        width: 100%;
+        height: 64px;
+        background-image: none;
+        left: 0;
+        top: 50%;
+        margin-top: -32px;
+        -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        border-radius: 50px;
+        background: #fe1889;
+        background: -moz-linear-gradient(left, #fe1889 0%, #a500d6 100%);
+        background: -webkit-linear-gradient(left, #fe1889 0%, #a500d6 100%);
+        background: linear-gradient(to right, #fe1889 0%, #a500d6 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe1889', endColorstr='#a500d6', GradientType=1);
+    }
+    .lk .leftMenu .linkCabMenu.active:before,
+    .lk .leftMenu .linkCabMenu:hover:before {
+        left: 0;
+    }
+    .lk .infoAccMoves {
+        padding-left: 0;
+    }
+    .lk .infoAccMoves .infoAcc {
+        width: 100%;
+        padding-left: 70px;
+    }
+    .lk .infoAccMoves .balanceMoves {
+        width: 100%;
+        padding-left: 70px;
+    }
+    .lk .infoAccMoves .balance {
+        /*width: calc(100% - 358px);*/
+        text-align: left;
+    }
+    .lk .infoAccMoves .balance .num {
+        padding-left: 41px;
+    }
+    .lk .infoAccMoves .movesPay {
+        width: 358px;
+    }
+    .lk .infoAccMoves .movesPay .payIn {
+        width: 190px;
+    }
+    .lk .infoAccMoves .movesPay .payOut {
+        width: calc(100% - 190px);
+    }
+    .lk .welcomeCab {
+        width: calc(100% - 316px);
+    }
+    .lk .headTop {
+        width: calc(100% - 316px);
+    }
+    .cabContent {
+        padding-right: 60px;
+    }
+    .cabContent .contentMain {
+        width: 100%;
+        padding-right: 0;
+    }
+    .cabNews {
+        padding-top: 60px;
+        width: 70%;
+        padding-left: 0;
+        float: left;
+    }
+    .cabNews .newsShortCabContent {
+        padding-bottom: 24px;
+    }
+    .cabNews .newsShortCabContent:nth-child(3)~.newsShortCabContent {
+        display: none;
+    }
+    .cabNews .toAll {
+        margin-top: 24px;
+    }
+    .cabContent .choiceSum .content {
+        padding: 0 90px 0 90px;
+    }
+    .cabContent .pursesPage .bigCard {
+        background-size: auto 100%;
+        /* height: 507px; */
+        padding: 50px 120px 114px 80px;
+    }
+    .cabContent .operationsPage .filterBlock>.cfix {
+        margin: 0 -10px;
+    }
+    .cabContent .operationsPage .filterBlock>.cfix>.item {
+        padding: 0 10px;
+    }
+    .cabContent .operationsPage .filterBlock .item:first-child,
+    .cabContent .operationsPage .filterBlock .item:nth-child(2) {
+        width: 280px;
+    }
+    .cabContent .operationsPage .filterBlock .item:nth-child(3) {
+        width: 220px;
+    }
+    .cabContent .operationsPage .filterBlock .item:last-child {
+        width: calc(100% - 780px);
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment {
+        left: auto;
+        right: -32px;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment::after {
+        left: auto;
+        right: 34px;
+    }
+    .cabContent .depositsPage .deposit .lightCard {
+        width: 210px;
+    }
+    .cabContent .depositsPage .deposit .sumDeposit {
+        padding: 21px 15px 29px 100px;
+        width: 290px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .col12-lg {
+        width: 100%;
+    }
+    .lk .headTop {
+        padding: 15px 40px 20px 50px;
+    }
+    
+    .lk header .headTop .langSite {
+        margin-top: -27px;
+    }
+    .cabTitle {
+        font-size: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    .lk .infoAccMoves .infoAcc {
+        padding-left: 50px;
+    }
+    .lk .infoAccMoves .infoAcc>* {
+        white-space: normal;
+        padding-right: 24px;
+    }
+    .lk .infoAccMoves .balanceMoves {
+        padding-left: 50px;
+    }
+    .lk .welcomeCab {
+        padding: 6px 0 8px 50px;
+    }
+    .lk .welcomeCab .accPhoto {
+        left: 50px;
+    }
+    .cabContent {
+        padding-left: 40px;
+        padding-top: 67px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+    }
+    .cabTitle+.content {
+        margin-top: 21px;
+    }
+    .cabContent .cfix.margO {
+        margin: -10px -8px 0;
+    }
+    .cabContent .cfix>.item {
+        padding: 10px 8px 0;
+    }
+    .cabContent .backgroundInfo .darkCard {
+        padding: 0 10px 0 114px;
+    }
+    .cabContent .darkCard [class*="icon"] {
+        width: 100px;
+    }
+    .cabContent .blockInLine+.blockInLine {
+        margin-top: 22px;
+    }
+    .cabContent .lightCard {
+        padding: 62px 17px 23px 23px;
+    }
+    .cabContent .allInvested .val {
+        right: 17px;
+    }
+    .cabContent .allPayOut .val {
+        right: 17px;
+    }
+    .cabContent .partnersEarned .val {
+        right: 17px;
+    }
+    .cabContent .bigCard {
+        padding: 11px 12px 24px 14px;
+    }
+    .cabContent .bigCard .titleCard {
+        padding-left: 80px;
+    }
+    .cabNews {
+        padding-top: 36px;
+        width: 100%;
+    }
+    .cabContent .payImage {
+        margin-top: 50px;
+    }
+    .cabContent .choiceSum .inputBlock {
+        margin-top: 32px;
+    }
+    .cabContent .choiceSum .content {
+        padding: 0 50px;
+    }
+    .cabContent .choiceSum,
+    .cabContent .payCard {
+        height: 330px;
+    }
+    .cabContent .payMovePage .resultSum {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 50px;
+    }
+    .cabContent .payMovePage .resultSum .num {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .cabContent .payMovePage .bttnGradientBlock {
+        margin: 50px auto 0;
+    }
+    .gradientBttn.doItBttn {
+        height: 60px;
+        width: 300px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .cabContent .pursesPage .bigCard {
+        padding: 50px 80px 114px 40px;
+    }
+    .cabContent .pursesPage .bigCard .tableCell:first-child {
+        /* width: 400px; */
+    }
+    .cabContent .pursesPage .bttnGradientBlock {
+        margin: 50px auto 0;
+    }
+    .cabContent .settingsPage .bigCard {
+        padding: 32px 25px 50px;
+    }
+    .cabContent .settingsPage .bigCard .bttnGradientBlock {
+        margin-top: 50px;
+    }
+    .cabContent .operationsPage .filterBlock .item:first-child,
+    .cabContent .operationsPage .filterBlock .item:nth-child(2) {
+        width: 220px;
+    }
+    .cabContent .operationsPage .filterBlock .item:nth-child(3) {
+        width: 190px;
+    }
+    .cabContent .operationsPage .filterBlock .item:last-child {
+        width: calc(100% - 630px);
+    }
+    .cabContent .operationsPage .filterBlock {
+        padding: 23px 25px 37px;
+    }
+    .cabContent .bigCard+.bigCard {
+        margin-top: 25px;
+    }
+    .cabContent .operationsPage .operationsCard .tableCell:first-child {
+        padding-left: 10px;
+    }
+    .cabContent .operationsPage .operationsCard .tableCell {
+        padding: 0 10px;
+    }
+    .standartTable .tHead .tableCell,
+    .cabContent .operationsPage .operationsCard .idOp,
+    .cabContent .operationsPage .operationsCard .sum,
+    .cabContent .operationsPage .operationsCard .nameOp,
+    .cabContent .operationsPage .operationsCard .balance,
+    .cabContent .operationsPage .operationsCard .status {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .cabContent .operationsPage .operationsCard .date {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .tabsCab .ui-tabs-nav li {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .tabsCab .ui-tabs-nav .ui-tabs-anchor {
+        padding: 10px 20px 10px;
+    }
+    .tabsBanners .ui-tabs-nav .ui-tabs-anchor {
+        width: 120px;
+    }
+    .tabsCab .ui-tabs-nav li+li {
+        margin-left: 10px;
+    }
+    .tabsCab.tabsBanners .ui-tabs-panel {
+        padding: 60px 30px 30px;
+    }
+    .cabContent .bannersPage .wrapInput {
+        margin-top: 60px;
+    }
+    .cabContent .bannersPage .bttnGradientBlock {
+        margin-top: 35px;
+    }
+    .tabsDeposits .ui-tabs-nav .ui-tabs-anchor {
+        width: 185px;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell {
+        display: block;
+    }
+    .cabContent .depositsPage .deposit .sumDeposit {
+        width: 100%;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:first-child~.tableCell {
+        float: left;
+        margin-top: 10px;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(2),
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(3) {
+        width: calc((100% - 120px) / 2);
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(2) {
+        padding-right: 10px;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(3) {
+        padding-left: 10px;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:last-child {
+        width: 120px;
+        padding-top: 3px;
+    }
+    .cabContent .depositsPage .deposit .lightCard {
+        width: 100%;
+    }
+    .cabContent .depositsPage .deposit {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .col12-sd {
+        width: 100%;
+    }
+    
+    
+    
+    
+    .returtGraf {
+        height: auto;
+        border-width: 1px;
+        margin-top: 30px;
+    }
+    .returtGraf .grafCell {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .returtGraf .grafCell+.grafCell {
+        border-width: 1px;
+    }
+    .returtGraf .grafCell .headTitle.top {}
+    .returtGraf .grafCell .headTitle {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .returtGraf .grafCell .footTitle {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        margin-top: 400px;
+    }
+    .returtGraf .grafCell .date {
+        font-size: 10px;
+        top: 295px;
+    }
+    .returtGraf .grafCell .grafUp {
+        height: calc(100% - 285px);
+        top: 60px;
+    }
+    .returtGraf .grafCell .grafUp .in {
+        width: calc(100% - 5px);
+        max-height: calc(100% - 5px);
+    }
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:before,
+    .returtGraf .grafCell .grafDown .in:after {}
+    .returtGraf .grafCell .grafUp .in:before,
+    .returtGraf .grafCell .grafDown .in:before {
+        top: -5px;
+        left: -2.5px;
+        height: 5px;
+    }
+    .returtGraf .grafCell .grafUp .in:after,
+    .returtGraf .grafCell .grafDown .in:after {
+        top: -2.5px;
+        left: -5px;
+        height: calc(100% + 0px);
+        width: 5px;
+    }
+    .returtGraf .grafCell .grafDown .in:after {
+        top: 2.5px;
+    }
+    .returtGraf .grafCell .grafDown .in:before {
+        top: 100%;
+    }
+    .returtGraf .grafCell .grafUp.top .in {}
+    .returtGraf .grafCell .grafUp.top .in:before {}
+    .returtGraf .grafCell .grafUp.top .in:after {}
+    .returtGraf .grafCell .grafDown {
+        top: 317px;
+        height: calc(100% - 377px);
+        width: calc(100% - 5px);
+    }
+    .returtGraf .grafCell .grafDown .in {
+        max-height: calc(100% - 5px);
+    }
+    .lk .welcomeCab .welcomeText,
+    .lk .welcomeCab .ref {
+        float: left;
+    }
+    .lk .welcomeCab .welcomeText {
+        width: 268px;
+        padding-right: 10px;
+    }
+    .lk .welcomeCab .ref {
+        padding-left: 0;
+        width: calc(100% - 268px);
+    }
+    .lk .welcomeCab .name {
+        display: table;
+    }
+    .lk .infoAccMoves .infoAcc>* {
+        padding-right: 5px;
+    }
+    .lk .infoAccMoves .infoAcc .lastIp {
+        width: 114px;
+    }
+    .lk .infoAccMoves .infoAcc .lastDate {
+        width: 151px;
+    }
+    .lk .infoAccMoves .infoAcc .regIp {
+        width: 125px;
+    }
+    .lk .infoAccMoves .infoAcc .regDate {
+        width: 141px;
+    }
+    .lk .infoAccMoves .infoAcc .lastIp br,
+    .lk .infoAccMoves .infoAcc .lastDate br,
+    .lk .infoAccMoves .infoAcc .regIp br,
+    .lk .infoAccMoves .infoAcc .regDate br {
+        display: block;
+    }
+    .lk .infoAccMoves .invitedNum .num {
+        display: table;
+    }
+    .lk .infoAccMoves .balance>* {
+        display: block;
+        float: left;
+    }
+    .lk .infoAccMoves .balance .num {
+        padding-left: 10px;
+        padding-right: 32px;
+        width: calc(100% - 58px);
+        text-align: right;
+    }
+    .lk .infoAccMoves .balance {
+        padding: 9px 0;
+    }
+    .lk footer {
+        padding: 40px 0;
+    }
+    .cabNews {
+        padding-right: 0;
+    }
+    .cabContent .choiceSum .content {
+        padding: 0 120px;
+    }
+    .cabContent .payMovePage .resultSum,
+    .cabContent .payMovePage .bttnGradientBlock,
+    .cabContent .pursesPage .bttnGradientBlock,
+    .cabContent .settingsPage .bigCard .bttnGradientBlock {
+        margin-top: 35px;
+    }
+    .cabContent .pursesPage .bigCard .tableCell {
+        display: block;
+    }
+    .cabContent .pursesPage .bigCard {
+        padding: 35px 40px;
+        height: auto;
+    }
+    .cabContent .pursesPage .payImage {
+        float: none;
+        margin: 35px 0 0;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment {
+        right: -20px;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment::after {
+        right: 22px;
+    }
+    .cabContent .operationsPage .filterBlock .item:first-child,
+    .cabContent .operationsPage .filterBlock .item:nth-child(2) {
+        width: 50%;
+    }
+    .cabContent .operationsPage .filterBlock .item:nth-child(3) {
+        width: 50%;
+    }
+    .cabContent .operationsPage .filterBlock .item:last-child {
+        width: 50%;
+    }
+    .cabContent .operationsPage .filterBlock>.cfix>.item {
+        padding: 15px 15px 0;
+    }
+    .cabContent .operationsPage .filterBlock>.cfix {
+        margin: -15px -15px 0;
+    }
+    .tabsBanners .ui-tabs-nav .ui-tabs-anchor {
+        width: 110px;
+    }
+    .tabsCab .ui-tabs-nav .ui-tabs-anchor {
+        padding: 10px 10px 10px 20px;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(2),
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(3) {
+        width: 50%;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:last-child {
+        width: 100%;
+        padding-top: 0;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:last-child {
+        text-align: center;
+    }
+    .cabContent .depositsPage .deposit {
+        padding: 30px 30px 15px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cabContent {
+        padding-left: 20px;
+        padding-top: 47px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .col4-md {
+        width: calc(100% / 3);
+    }
+    .col6-md {
+        width: 50%;
+    }
+    
+    .rightSide {
+        width: 100%;
+        float: none;
+    }
+    .leftSide {
+        width: 100%;
+        float: none;
+    }
+    .lk .headTop::before,
+    .lk header .headTop .mail {
+        display: none;
+    }
+    .lk .headTop:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+    .lk header .headTop .socialBlock {
+        float: left;
+        width: auto;
+    }
+    .lk header .headTop .social {
+        float: left;
+    }
+    .lk header .headTop .telegram {
+        width: auto;
+        margin-top: 0;
+        margin-left: 9px;
+    }
+    .lk header .headTop{
+        padding: 13px 13px 13px 10px;
+    }
+    .lk header .headTop .telegram a *:not([class*="icon"]){
+        display: none;
+    }
+    .lk header .headTop .mail [class*="icon"], .lk header .headTop .telegram [class*="icon"] {
+        position: static;
+        top: auto;
+        margin-top: 0;
+        left: 0;
+    }
+    .lk header .headTop .telegram a{
+        padding-left: 0;
+    }
+    .lk header .headTop .telegram li + li{
+        margin-left: 9px;
+        display: none;
+    }
+    .lk header .headTop .langSite {
+        margin-top: 0;
+    }
+    .lk .leftMenu {
+        position: absolute;
+        z-index: 2;
+        background-color: #0a0c44;
+        width: 100%;
+        left: 0;
+        top: 100%;
+        padding-left: 0;
+        margin-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        height: auto;
+        border-top: 1px solid #3e3f6c;
+        border-bottom: 1px solid #3e3f6c;
+        display: none;
+    }
+    .lk .leftMenu li+li {
+        border-top: 1px solid #3e3f6c;
+        margin-top: 0;
+    }
+    .lk .leftMenu .linkCabMenu {
+        font-weight: normal;
+        padding: 13px 10px 14px 65px;
+    }
+    .lk .leftMenu .linkCabMenu [class*="icon"] {
+        font-size: 24px;
+        left: 0;
+        line-height: 32px;
+        top: 50%;
+        margin-top: -16px;
+        width: 65px;
+    }
+    .lk .burger {
+        display: block;
+        float: right;
+        margin-top: 21px;
+        margin-right: 6px;
+    }
+    .lk header .leftSide:before {
+        display: none;
+    }
+    .lk .headTop {
+        float: none;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .lk header .logo {
+        float: left;
+        margin: 0;
+        width: 192px;
+    }
+    .lk header .leftSide {
+        padding: 8px 10px 22px;
+        position: relative;
+    }
+    .lk header .rightSide {
+        background-color: transparent;
+    }
+    .lk header .welcomeCab {
+        padding: 9px 10px 7px;
+        background-color: #170d46;
+        width: 100%;
+        float: none;
+    }
+    .lk .leftMenu .linkCabMenu::before {
+        display: none;
+    }
+    .lk .infoAccMoves .infoAcc {
+        padding: 10px 10px 13px;
+        float: none;
+    }
+    .lk .infoAccMoves .balanceMoves {
+        padding: 0 0 0 10px;
+        float: none;
+    }
+    .lk .welcomeCab .accPhoto {
+        left: 10px;
+    }
+    .lk .welcomeCab .refLink {
+        display: table;
+    }
+    .lk .welcomeCab .welcomeText {
+        width: 265px;
+    }
+    .lk .infoAccMoves .infoAcc>* {
+        padding-right: 44px;
+    }
+    .lk .infoAccMoves .infoAcc .lastIp,
+    .lk .infoAccMoves .infoAcc .lastDate,
+    .lk .infoAccMoves .infoAcc .regIp,
+    .lk .infoAccMoves .infoAcc .regDate {
+        width: auto;
+    }
+    .lk .infoAccMoves .balance .num {
+        padding-left: 10px;
+        padding-right: 29px;
+        width: calc(100% - 58px);
+    }
+    .lk .infoAccMoves .balance {
+        /*width: calc(100% - 479px);*/
+    }
+    .lk .infoAccMoves .movesPay {
+        width: 478px;
+    }
+    .lk .infoAccMoves .movesPay .payIn {
+        width: 241px;
+    }
+    .lk .infoAccMoves .movesPay .payOut {
+        width: calc(100% - 241px);
+    }
+    .lk .infoAccMoves .movesPay>* {
+        text-align: left;
+        padding: 4px 14px 6px;
+    }
+    .cabContent {
+        padding-left: 10px;
+        padding-top: 9px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+    }
+    .cabContent .investInfo>.cfix {
+        margin: 0 -5px;
+    }
+    .cabContent .investInfo>.cfix>.item {
+        padding: 0 5px;
+    }
+    .cabContent .lightCard {
+        display: table;
+        width: 100%;
+        padding: 67px 26px 6px 15px;
+    }
+    .cabContent .lightCard .txt {
+        display: table-cell;
+        height: 90px;
+        vertical-align: middle;
+    }
+    .cabContent .allInvested .val,
+    .cabContent .allPayOut .val,
+    .cabContent .partnersEarned .val {
+        right: 26px;
+    }
+    .cabContent .blockInLine+.blockInLine {
+        margin-top: 12px;
+    }
+    .cabNews .titleCabSub+.content {
+        margin-top: 24px;
+    }
+    .cabNews .newsShortCabContent {
+        width: 50%;
+        float: left;
+        padding-bottom: 35px;
+    }
+    .cabNews .newsShortCabContent+.newsShortCabContent {
+        margin-top: 29px;
+    }
+    .cabNews .newsShortCabContent:nth-child(2) {
+        margin-top: 0;
+    }
+    .cabNews .newsShortCabContent:nth-child(2n+1) {
+        padding-right: 47px;
+    }
+    .cabNews .newsShortCabContent:nth-child(2n) {
+        padding-left: 47px;
+    }
+    .cabNews .newsShortCabContent:nth-child(2n):after {
+        left: 47px;
+    }
+    .cabNews .newsShortCabContent:nth-child(3)~.newsShortCabContent {
+        display: block;
+    }
+    .cabNews .toAll {
+        margin-top: 33px;
+    }
+    .lk footer {
+        position: static;
+        padding: 30px 0;
+    }
+    .cabContent .choiceSum .content {
+        padding: 0 50px;
+    }
+    .gradientBttn.doItBttn {
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .cabContent .payMovePage .resultSum,
+    .cabContent .payMovePage .bttnGradientBlock,
+    .cabContent .pursesPage .bttnGradientBlock {
+        margin-top: 25px;
+    }
+    .cabContent .settingsPage .bigCard {
+        padding: 32px 15px 50px;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment {
+        right: -10px;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment::after {
+        right: 14px;
+    }
+    .cabContent .operationsPage .filterBlock .item:first-child,
+    .cabContent .operationsPage .filterBlock .item:nth-child(2) {
+        width: 210px;
+    }
+    .cabContent .operationsPage .filterBlock .item:nth-child(3) {
+        width: 180px;
+    }
+    .cabContent .operationsPage .filterBlock .item:last-child {
+        width: calc(100% - 600px);
+    }
+    .cabContent .operationsPage .filterBlock>.cfix>.item {
+        padding: 10px 10px 0;
+    }
+    .cabContent .operationsPage .filterBlock>.cfix {
+        margin: -10px -10px 0;
+    }
+    .cabContent .operationsPage .filterBlock {
+        padding: 20px 15px 30px;
+    }
+    .cabContent .depositsPage .deposit+.deposit {
+        margin-top: 25px;
+    }
+    .cabContent .depositsPage .deposit {
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width:799px) {
+    .lk .infoAccMoves .infoAcc>* {
+        padding-right: 25px;
+    }
+}
+
+@media (max-width:767px) {
+    .col12-xs {
+        width: 100%;
+    }
+    .returtGraf {
+        width: 752px;
+        position: absolute;
+        left: 50%;
+        margin-left: calc(-752px / 2);
+        transform: scale(0.6);
+        bottom: -50px;
+        border-width: 2px;
+    }
+    .monthIncome{
+        padding-bottom: 400px !important;
+    }
+    .returtGraf .grafCell {}
+    .returtGraf .grafCell+.grafCell {
+        border-width: 2px;
+    }
+    .lk header .logo {
+        width: 141px;
+    }
+    .lk .burger {
+        margin-top: 7px;
+        margin-right: 0;
+    }
+    .lk header .leftSide {
+        padding: 8px 10px 14px;
+    }
+    .lk .welcomeCab .welcomeText {
+        width: 235px;
+    }
+    .lk .welcomeCab .refLink {
+        display: inline;
+    }
+    .lk .infoAccMoves .infoAcc {
+        padding: 10px 15px 15px;
+    }
+    .lk .infoAccMoves .infoAcc>* {
+        padding-right: 0;
+        display: table;
+    }
+    .lk .infoAccMoves .infoAcc .lastIp br,
+    .lk .infoAccMoves .infoAcc .lastDate br,
+    .lk .infoAccMoves .infoAcc .regIp br,
+    .lk .infoAccMoves .infoAcc .regDate br,
+    .lk .infoAccMoves .infoAcc .invitedNum br {
+        display: none;
+    }
+    .lk .infoAccMoves .infoAcc .data,
+    .lk .infoAccMoves .invitedNum .num {
+        display: inline;
+    }
+    .lk .infoAccMoves .balance {
+        width: 100%;
+        padding: 11px 16px 9px 23px;
+    }
+    .lk .infoAccMoves .balanceMoves {
+        padding: 0;
+    }
+    .lk .infoAccMoves .balance .num {
+        padding-right: 0;
+    }
+    .lk .infoAccMoves .movesPay,
+    .lk .infoAccMoves .movesPay .payIn,
+    .lk .infoAccMoves .movesPay .payOut {
+        width: 100%;
+    }
+    .lk .infoAccMoves .movesPay>* {
+        padding: 5px 14px 7px;
+    }
+    .cabContent {
+        padding: 15px 8px 10px;
+    }
+    .cabContent .blockInLine+.blockInLine {
+        margin-top: 22px;
+    }
+    .cabContent .lightCard {
+        padding: 63px 18px 24px 23px;
+    }
+    .cabContent .lightCard .txt {
+        height: auto;
+    }
+    .cabContent .investInfo>.cfix>.item {
+        padding: 10px 5px 0;
+    }
+    .cabContent .investInfo>.cfix {
+        margin: -10px -5px 0;
+    }
+    .cabContent .allInvested .val,
+    .cabContent .allPayOut .val,
+    .cabContent .partnersEarned .val {
+        right: 18px;
+    }
+    .cabNews .newsShortCabContent {
+        width: 100%;
+        float: none;
+        padding-bottom: 23px;
+    }
+    .cabNews .newsShortCabContent:nth-child(2n+1) {
+        padding-right: 0;
+    }
+    .cabNews .newsShortCabContent:nth-child(2n) {
+        padding-left: 0;
+    }
+    .cabNews .newsShortCabContent:nth-child(2n):after {
+        left: 0;
+    }
+    .cabNews .titleCabSub+.content {
+        margin-top: 33px;
+    }
+    .cabNews .newsShortCabContent+.newsShortCabContent {
+        margin-top: 33px;
+    }
+    .cabNews .newsShortCabContent:nth-child(2) {
+        margin-top: 33px;
+    }
+    .cabNews .toAll {
+        margin-top: 24px;
+    }
+    .cabContent .choiceSum .content {
+        padding: 0 120px;
+    }
+    .cabContent .operationsPage .filterBlock .item:first-child,
+    .cabContent .operationsPage .filterBlock .item:nth-child(2) {
+        width: 50%;
+    }
+    .cabContent .operationsPage .filterBlock .item:nth-child(3) {
+        width: 50%;
+    }
+    .cabContent .operationsPage .filterBlock .item:last-child {
+        width: 50%;
+    }
+    .standartTable .tableCell {
+        display: block;
+        width: 100%;
+    }
+    .standartTable .tHead {
+        background-color: #281f62;
+        display: none;
+    }
+    
+    .standartTable .tableCell .mobTitle{
+        display: block;
+        color: #fff;
+        font-weight: bold;
+    }
+    .cabContent .operationsPage .operationsCard .tableCell {
+        padding: 0;
+        max-width: inherit;
+        background-color: transparent;
+    }
+    .cabContent .operationsPage .operationsCard .tableCell:first-child {
+        padding: 0;
+    }
+    .cabContent .operationsPage .operationsCard .tableCell {
+        text-align: left;
+    }
+    .standartTable .tHead .tableCell,
+    .standartTable .tBody .tRow:nth-child(2n) .tableCell,
+    .cabContent .operationsPage .operationsCard .tableCell:first-child,
+    .cabContent .operationsPage .operationsCard .tableCell {
+        height: auto;
+        padding: 10px;
+    }
+    .standartTable .tHead .tableCell,
+    .cabContent .operationsPage .operationsCard .idOp,
+    .cabContent .operationsPage .operationsCard .sum,
+    .cabContent .operationsPage .operationsCard .nameOp,
+    .cabContent .operationsPage .operationsCard .balance,
+    .cabContent .operationsPage .operationsCard .status {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .cabContent .operationsPage .operationsCard .date {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .cabContent .operationsPage .operationsCard .tHead .tableCell:last-child>* {
+        display: block;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock [class*="icon"] {
+        display: none;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment {
+        position: static;
+        opacity: 1;
+        background-color: transparent;
+        border: none;
+        z-index: 0;
+        width: 100%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .title {
+        display: none;
+    }
+    .cabContent .operationsPage .operationsCard .commentBlock .comment::after {
+        display: none;
+    }
+    .cabContent .operationsPage .operationsCard .table,
+    .cabContent .operationsPage .operationsCard .tHead .tableCell:first-child {
+        -webkit-border-top-right-radius: 25px;
+        -moz-border-top-right-radius: 25px;
+        -ms-border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        -webkit-border-top-left-radius: 25px;
+        -moz-border-top-left-radius: 25px;
+        -ms-border-top-left-radius: 25px;
+        border-top-left-radius: 25px;
+    }
+    .cabContent .operationsPage .operationsCard .tHead .tableCell:first-child {
+        padding-top: 25px;
+    }
+    .standartTable .tBody .tRow:last-child .tableCell:last-child {
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width:639px) {
+    .col12-xss {
+        width: 100%;
+    }
+    .lk header .leftSide {
+        padding: 8px 10px 23px;
+    }
+    .lk .welcomeCab .ref {
+        width: 100%;
+        margin-top: 3px;
+    }
+    .lk .welcomeCab .accPhoto {
+        margin-top: 0;
+        top: 12px;
+    }
+    .lk header .welcomeCab {
+        padding: 9px 10px 18px;
+    }
+    .lk .infoAccMoves .infoAcc {
+        padding: 5px 15px 5px;
+    }
+    .lk .infoAccMoves .balance :not(.num) {
+        width: 80px;
+    }
+    .lk .infoAccMoves .balance .num {
+        padding-left: 0;
+        width: calc(100% - 80px);
+        text-align: left;
+    }
+    .cabContent {
+        padding: 22px 8px 4px;
+    }
+    .cabContent .blockInLine+.blockInLine {
+        margin-top: 9px;
+    }
+    .cabNews {
+        padding-top: 19px;
+    }
+    .cabNews .titleCabSub+.content {
+        margin-top: 23px;
+    }
+    .cabNews .newsShortCabContent {
+        padding-bottom: 35px;
+    }
+    .cabNews .toAll {
+        margin-top: 16px;
+    }
+    .cabContent .choiceSum .content {
+        padding: 0;
+    }
+    .cabContent .bigCard.payCard .titleCard,
+    .cabContent .bigCard.choiceSum .titleCard {
+        font-size: 28px;
+        line-height: 34px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .cabContent .payMovePage .resultSum .num {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .cabContent .payMovePage .bttnGradientBlock {
+        margin-top: 15px;
+    }
+    .gradientBttn.doItBttn {
+        height: 40px;
+        width: 200px;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0;
+    }
+    .cabContent .pursesPage .bigCard {
+        padding: 20px;
+        height: auto;
+    }
+    .cabContent .pursesPage .bigCard .tableCell:first-child {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .cabContent .pursesPage .purse .wrapInput {
+        padding-right: 65px;
+    }
+    .cabContent .pursesPage .bigCard {
+        background-size: 100% auto;
+    }
+    .cabContent .settingsPage .bigCard .bttnGradientBlock .doItBttn {
+        width: 274px;
+    }
+    .cabContent .settingsPage .bigCard {
+        padding: 30px 10px;
+    }
+    .inputBlock label {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .tabsCab .ui-tabs-nav li,
+    .tabsCab.tabsBanners .ui-tabs-panel,
+    .tabsCab.tabsDeposits .ui-tabs-panel {
+        width: 100%;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        border-radius: 25px;
+    }
+    .tabsBanners .ui-tabs-nav .ui-tabs-anchor {
+        width: 100%;
+    }
+    .tabsCab .ui-tabs-nav li+li {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .tabsCab.tabsBanners .ui-tabs-panel {
+        margin-top: 10px;
+        padding: 30px 10px 30px;
+    }
+    .tabsCab.tabsDeposits .ui-tabs-panel {
+        margin-top: 10px;
+    }
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(2),
+    .cabContent .depositsPage .deposit>.table>.tableCell:nth-child(3) {
+        width: 100%;
+    }
+    .cabContent .depositsPage .tabsDeposits .ui-tabs-panel {
+        padding: 30px 20px;
+    }
+    .cabContent .depositsPage .deposit {
+        padding: 30px 10px;
+    }
+    .cabContent .depositsPage .deposit .sumDeposit [class*="icon"] {
+        position: static;
+        margin: 0 auto;
+    }
+    .cabContent .depositsPage .deposit .sumDeposit {
+        padding: 21px 15px 29px;
+        text-align: center;
+    }
+}
+
+@media (max-width:479px) {
+    .cabContent .operationsPage .filterBlock .item:first-child,
+    .cabContent .operationsPage .filterBlock .item:nth-child(2) {
+        width: 100%;
+    }
+    .cabContent .operationsPage .filterBlock .item:nth-child(3) {
+        width: 100%;
+    }
+    .cabContent .operationsPage .filterBlock .item:last-child {
+        width: 100%;
+    }
+    .cabContent .operationsPage .filterBlock .bttnSearch {
+        margin-top: 14px;
+    }
+    
+    .returtGraf {
+        transform: scale(0.4);
+        bottom: -100px;
+    }
+    .monthIncome{
+        padding-bottom: 300px !important;
+    }
+}
+

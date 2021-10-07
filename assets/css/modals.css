@@ -1,0 +1,999 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.cfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.row {
+    margin: 0 -20px;
+}
+
+.row>.item,
+.row>.left {
+    float: left;
+    padding: 0 20px;
+}
+
+.row>.right {
+    float: right;
+    padding: 0 20px;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col12 {
+    width: 100%;
+}
+
+.table {
+    display: table;
+}
+
+.table.full {
+    width: 100%;
+}
+
+.tHead,
+.tBody {
+    display: table-row-group;
+}
+
+.tRow {
+    display: table-row;
+}
+
+.tCell {
+    display: table-cell;
+}
+
+.tCell.middle {
+    vertical-align: middle;
+}
+
+.tCell.center {
+    text-align: center;
+}
+
+.tCell.right {
+    text-align: right;
+}
+
+.linkType1 {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #f61692;
+    text-decoration-color: #f61692;
+    -webkit-transition: text-decoration-color 0.3s;
+    -moz-transition: text-decoration-color 0.3s;
+    -ms-transition: text-decoration-color 0.3s;
+    -o-transition: text-decoration-color 0.3s;
+    transition: text-decoration-color 0.3s;
+}
+
+.linkType1:hover {
+    opacity: 1;
+    text-decoration-color: transparent;
+}
+
+.bodyModal {
+    overflow: hidden;
+}
+
+.modalsScroll {
+    overflow: auto;
+    position: fixed;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.modalsScroll.open {
+    z-index: 55;
+    display: block;
+}
+
+.modals {
+    height: 100vh;
+    width: 100%;
+}
+
+.modals.table {
+    display: table;
+}
+
+.modals>.tCell {
+    padding: 50px 55px 50px 55px;
+    overflow: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#overlay {
+    z-index: 1;
+    position: fixed;
+    background-color: #140a3c;
+    opacity: 0.77;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    display: none;
+}
+
+.blockMod {
+    position: relative;
+    z-index: 2;
+    display: none;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 0px;
+}
+
+.blockMod .in {
+    position: relative;
+    margin: 0px auto;
+}
+
+.blockMod .close {
+    display: inline-block;
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: calc(100% + 8px);
+    width: 47px;
+    height: 47px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 47px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1888+0,ad09de+100 */
+    background: #ff1888;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff1888 0%, #ad09de 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1888', endColorstr='#ad09de', GradientType=1);
+    /* IE6-9 */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    z-index: 2;
+}
+
+.blockMod .close:hover {
+    opacity: 0.7;
+}
+
+.siteMod.blockMod {
+    max-width: 828px;
+}
+
+.logRegTabs .tabList {}
+
+.logRegTabs .tabList li {
+    width: 395px;
+    height: 140px;
+    text-align: center;
+    background-color: #623096;
+    -webkit-border-top-right-radius: 17px;
+    -moz-border-top-right-radius: 17px;
+    -ms-border-top-right-radius: 17px;
+    -o-border-top-right-radius: 17px;
+    border-top-right-radius: 17px;
+    -webkit-border-top-left-radius: 17px;
+    -moz-border-top-left-radius: 17px;
+    -ms-border-top-left-radius: 17px;
+    -o-border-top-left-radius: 17px;
+    border-top-left-radius: 17px;
+    /*     -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s; */
+}
+
+.logRegTabs .tabList li:first-child {
+    float: left;
+}
+
+.logRegTabs .tabList li:last-child {
+    float: right;
+}
+
+.logRegTabs .tabList li.ui-state-active {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.logRegTabs .tabList .iconLeft {
+    position: relative;
+    display: inline-block;
+    padding-left: 75px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.logRegTabs .tabList li:hover .iconLeft {
+    opacity: 0.7;
+}
+
+.logRegTabs .tabList li.ui-state-active:hover .iconLeft {
+    opacity: 1;
+}
+
+.logRegTabs .tabList .iconLeft [class*="icon"] {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -25px;
+    font-size: 50px;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.logRegTabs .tabList li.ui-state-active .iconLeft [class*="icon"] {
+    color: #ff1888;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1888+0,ad09de+100 */
+    background: #ff1888;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff1888 0%, #ad09de 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1888', endColorstr='#ad09de', GradientType=1);
+    /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logRegTabs .tabList .iconLeft .data {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 120px;
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.logRegTabs .tabList li.ui-state-active .data {
+    color: #242165;
+}
+
+.blockMod .modContent {
+    padding: 40px 85px 60px;
+    background-color: #fff;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    border-radius: 23px;
+    box-shadow: 0px 0px 51px rgba(0, 0, 0, 0.21);
+}
+
+.siteMod .modContent.paddLg {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.logRegTabs .tabContent {
+    position: relative;
+    margin-top: -20px;
+    z-index: 1;
+    padding-top: 95px;
+    padding-bottom: 65px;
+}
+
+.inBlock label {
+    display: block;
+    font-size: 18px;
+    color: #242165;
+}
+
+.inBlock label span {
+    color: #ff1888;
+}
+
+.inBlock label+input,
+.inBlock label+textarea {
+    margin-top: 10px;
+}
+
+.inBlock input {
+    padding: 0px 15px;
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+    line-height: 53px;
+    background-color: rgba(241, 240, 249, 0.769);
+    border: 1px solid #c3c0db;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.11);
+}
+
+.inBlock textarea {
+    padding: 10px 15px;
+    width: 100%;
+    height: 125px;
+    font-size: 15px;
+    line-height: 22px;
+    background-color: rgba(241, 240, 249, 0.769);
+    border: 1px solid #c3c0db;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.11);
+    resize: none;
+    overflow: hidden;
+}
+
+.logRegCheck input {
+    display: none;
+}
+
+.logRegCheck label {
+    position: relative;
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #a801d4;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.logRegCheck label:hover {
+    opacity: 0.7;
+}
+
+.logRegCheck label::before,
+.logRegCheck label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -12px;
+    height: 24px;
+    width: 24px;
+}
+
+.logRegCheck label::before {
+    background-color: rgba(241, 240, 249, 0.769);
+    border: 1px solid #c3c0db;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.11);
+}
+
+.logRegCheck label::after {
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.logRegCheck input:checked+label::after {
+    opacity: 1;
+}
+
+.agreeCheck label {
+    color: #242165;
+}
+
+.agreeCheck label a {
+    display: inline;
+}
+
+.agreeCheck label::before,
+.agreeCheck label::after {
+    top: 7px;
+    margin-top: 0px;
+}
+
+.captchaWrap {
+    position: relative;
+    padding-top: 55px;
+}
+
+.captchaWrap.paddSm {
+    padding-top: 30px;
+}
+
+.captchaWrap .captcha {
+    height: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #c3c0db;
+}
+
+.captchaWrap [class*="icon"] {
+    position: absolute;
+    bottom: 0px;
+    right: 12px;
+    font-size: 30px;
+    line-height: 55px;
+    color: #ff1888;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1888+0,ad09de+100 */
+    background: #ff1888;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff1888 0%, #ad09de 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1888', endColorstr='#ad09de', GradientType=1);
+    /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.captchaWrap [class*="icon"]:hover {
+    opacity: 0.7;
+}
+
+.blockMod .row+.row {
+    margin-top: 30px;
+}
+
+.blockMod .inBlock+.inBlock {
+    margin-top: 24px;
+}
+
+.blockMod .row+.bttnGradientBlock {
+    margin-top: 110px;
+}
+
+.blockMod .linksList+.bttnGradientBlock {
+    margin-top: 90px;
+}
+.bttnGradientBlock {
+    display: table;
+    margin: 0 auto 0;
+    padding: 2px;
+    background: #fe1889;
+    background: -moz-linear-gradient(left, #fe1889 0%, #a500d6 100%);
+    background: -webkit-linear-gradient(left, #fe1889 0%, #a500d6 100%);
+    background: linear-gradient(to right, #fe1889 0%, #a500d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe1889', endColorstr='#a500d6', GradientType=1);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.bttnGradient {
+    background: #fe1889;
+    background: -moz-linear-gradient(left, #fe1889 0%, #a500d6 100%);
+    background: -webkit-linear-gradient(left, #fe1889 0%, #a500d6 100%);
+    background: linear-gradient(to right, #fe1889 0%, #a500d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe1889', endColorstr='#a500d6', GradientType=1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 12px 29px rgba(12, 13, 73, 0.76);
+    -moz-box-shadow: 0 12px 29px rgba(12, 13, 73, 0.76);
+    box-shadow: 0 12px 29px rgba(12, 13, 73, 0.76);
+    height: 55px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bttnGradient:hover {
+    -webkit-box-shadow: 0 12px 29px rgba(12, 13, 73, 0);
+    -moz-box-shadow: 0 12px 29px rgba(12, 13, 73, 0);
+    box-shadow: 0 12px 29px rgba(12, 13, 73, 0);
+}
+
+.bttnGradientBlock:hover .gradientBttn {
+    background-color: transparent !important;
+}
+
+.blockMod .bttnGradientBlock {
+    margin-left: auto;
+    margin-right: 15px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.blockMod .bttnGradientBlock:hover {
+    opacity: 0.7;
+}
+
+.blockMod .gradientBttn {
+    display: inline-block;
+    width: 280px;
+    height: 53px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#542989+0,19135a+100 */
+    background: #542989;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #542989 0%, #19135a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #542989 0%, #19135a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #542989 0%, #19135a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#542989', endColorstr='#19135a', GradientType=1);
+    /* IE6-9 */
+    padding-bottom: 5px;
+}
+
+.siteMod .title {
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: #242165;
+}
+
+.siteMod .title+form {
+    margin-top: 45px;
+}
+
+.siteMod .row+.linksList {
+    margin-top: 27px;
+}
+
+.siteMod .linksList {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.siteMod .linksList li:first-child {
+    display: block;
+}
+
+.siteMod .linksList li {
+    display: inline-block;
+    margin: 0px 14px;
+}
+
+.siteMod .linksList li a {
+    line-height: 36px;
+}
+
+.siteMod .caption {
+    display: block;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: #242165;
+}
+
+.siteMod .caption+.subtitle {
+    margin-top: 15px;
+}
+
+.siteMod .subtitle {
+    display: block;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #9697cc;
+}
+
+.siteMod .subtitle+form {
+    margin-top: 50px;
+}
+
+.blockMod .modContent.darkBack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #342c6a;
+}
+
+
+.cabMod.message {
+    max-width: 494px;
+}
+
+.cabMod.message .modContent {
+    height: 433px;
+    padding-top: 55px;
+}
+
+.cabMod.message .img {
+    display: block;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabMod.message .img+.title {
+    margin-top: 35px;
+}
+
+.cabMod.message .title {
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.cabMod.message .title+[class*="btn"] {
+    margin-top: 45px;
+}
+
+.cabMod.message .title+.text {
+    margin-top: 30px;
+}
+
+.cabMod.message .text {
+    text-align: center;
+    padding: 0px 55px;
+}
+
+.cabMod.message .text span {
+    display: block;
+    font-size: 18px;
+    line-height: 36px;
+    color: #b2b3ef;
+}
+
+
+.btnFillGrad {
+    display: table;
+    padding: 0px 15px;
+    width: 285px;
+    height: 57px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 57px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+    -webkit-border-radius: 57px;
+    -moz-border-radius: 57px;
+    -ms-border-radius: 57px;
+    -o-border-radius: 57px;
+    border-radius: 57px;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1888+0,ad09de+100 */
+    background: #ff1888;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff1888 0%, #ad09de 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff1888 0%, #ad09de 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1888', endColorstr='#ad09de', GradientType=1);
+    /* IE6-9 */
+}
+
+.btnFillGrad.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnFillGrad:hover {
+    opacity: 0.7;
+}
+
+
+.cabMod.deposit {
+    max-width: 748px;
+}
+
+.cabMod.deposit .modContent {
+    padding-bottom: 0px;
+}
+
+.cabMod.deposit .title {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+
+.cabMod.deposit .title+.depTable {
+    margin-top: 40px;
+}
+
+.depTable .tRow {
+    height: 60px;
+}
+
+.depTable .tRow:nth-child(odd) {
+    background-color: #281f62;
+}
+
+.depTable .param {
+    padding-left: 31px;
+    width: 477px;
+}
+
+.depTable .param .iconLeft {
+    position: relative;
+    padding-left: 48px;
+}
+
+.depTable .param .iconLeft [class*="icon"] {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -9px;
+    font-size: 18px;
+    color: #6762a3;
+}
+
+.depTable .param .iconLeft .text {
+    font-size: 18px;
+    color: #fff;
+}
+
+.depTable .data span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #a5a5e1;
+}
+
+.depTable .data.type1 span {
+    color: #f411aa;
+}
+
+.depTable .data.type2 span {
+    color: #a801d4;
+}
+
+.depTable .data.sum span {
+    font-size: 25px;
+}
+
+
+@media (max-width: 1199px) {
+    .logRegTabs .tabContent {}
+}
+
+@media (max-width: 991px) {
+    .logRegTabs .tabContent,
+    .blockMod .modContent {
+        padding: 30px;
+    }
+    .siteMod .modContent.paddLg {
+        padding: 30px;
+    }
+    .siteMod.blockMod {
+        max-width: 600px
+    }
+    .siteMod .caption,
+    .cabMod.deposit .title,
+    .siteMod .title,
+    .cabMod.message .title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .siteMod .subtitle {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .blockMod .row+.bttnGradientBlock,
+    .siteMod .title+form {
+        margin-top: 30px;
+    }
+    .logRegTabs .tabList .iconLeft {
+        padding-left: 50px;
+    }
+    .logRegTabs .tabList li {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        float: left !important;
+        height: 90px;
+        line-height: 90px;
+    }
+    .logRegTabs .tabList li+li {
+        margin-left: 20px;
+    }
+    .logRegTabs .tabList .iconLeft .data {
+        line-height: 90px;
+        font-size: 24px;
+        position: relative;
+        top: -10px;
+    }
+    .logRegTabs .tabList .iconLeft [class*="icon"] {
+        font-size: 34px;
+        margin-top: -27px;
+    }
+    .cabMod.deposit {
+        max-width: 600px
+    }
+    .depTable .param {
+        width: auto;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+    .depTable .param .iconLeft .text {
+        font-size: 16px;
+    }
+    .depTable .data {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .siteMod .modContent.paddLg,
+    .logRegTabs .tabContent,
+    .blockMod .modContent {
+        padding: 20px 8px;
+        background-image: none !important;
+    }
+    .modals>.tCell {
+        padding: 50px 8px;
+    }
+    .inBlock input {
+        height: 35px;
+        line-height: 33px;
+    }
+    .col6,
+    .row>.item,
+    .row>.left {
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .item.col6+.item.col6,
+    .blockMod .row+.row,
+    .blockMod .inBlock+.inBlock {
+        margin-top: 15px;
+    }
+    .siteMod .caption,
+    .cabMod.deposit .title,
+    .siteMod .title,
+    .cabMod.message .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .siteMod .subtitle {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 5px;
+    }
+    .siteMod .subtitle+form {
+        margin-top: 20px;
+    }
+    .blockMod .bttnGradientBlock {
+        margin-right: 0px;
+    }
+    .blockMod .close {
+        right: -8px;
+        left: auto;
+        top: -17px;
+        bottom: auto;
+    }
+    .logRegTabs .tabList .iconLeft .data {
+        font-size: 16px;
+        line-height: 60px;
+    }
+    .logRegTabs .tabList li {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .logRegTabs .tabList .iconLeft [class*="icon"] {
+        font-size: 24px;
+        margin-top: -20px;
+    }
+    .logRegTabs .tabList .iconLeft {
+        padding-left: 30px;
+    }
+    .depTable .param .iconLeft {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 479px) {}

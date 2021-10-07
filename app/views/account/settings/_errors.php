@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'en' => [
+		1 => '<div class="error">Data Error</div>',
+        2 => '<div class="error">Enter current password</div>',
+        3 => '<div class="error">Enter new password</div>',
+        4 => '<div class="error">Repeat new password</div>',
+        5 => '<div class="error">Wrong password format</div>',
+        6 => '<div class="error">Passwords do not match</div>',
+        7 => '<div class="error">Actual password is not filled in correctly</div>',
+        10 => '<div class="error">Enter your wallet number</div>',
+        11 => '<div class="error">Wrong wallet format</div>',
+        12 => '<div class="error">You already have a wallet installed</div>',
+        21 => '<div class="success">Wallet installed successfully</div>',
+		22 => '<div class="error">autoreplace should be from 10 to 100%</div>',
+        23 => '<div class="error">Confirm Auto refback</div>',
+		24 => '<div class="success">Auto refback installed</div>',
+		25 => '<div class="error">Auto refback disabled</div>',
+        20 => '<div class="success">Password successfully changed</div>',
+    ],
+	
+    'ru' => [
+		1 => '<div class="error">Ошибка данных</div>',
+        2 => '<div class="error">Введите текущий пароль</div>',
+        3 => '<div class="error">Введите новый пароль</div>',
+        4 => '<div class="error">Повторите новый пароль</div>',
+        5 => '<div class="error">Неправильный Формат пароля</div>',
+        6 => '<div class="error">Пароли не совпадают</div>',
+        7 => '<div class="error">Фактический пароль не правильно заполнен</div>',
+        10 => '<div class="error">Введите номер кошелька</div>',
+        11 => '<div class="error">Неверный формат кошелька</div>',
+        12 => '<div class="error">У вас уже установлен кошелек</div>',
+        21 => '<div class="success">Кошелек успешно установлен</div>',
+        22 => '<div class="error">Процент авторефбека должен быть от 10 до 100%</div>',
+        23 => '<div class="error">Подтвердите включение Auto refback</div>',
+		24 => '<div class="success">Auto refback установлен</div>',
+		25 => '<div class="error">Auto refback отключен</div>',
+        20 => '<div class="success">Пароль успешно изменен</div>',
+    ],
+];
